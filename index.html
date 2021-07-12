@@ -8,17 +8,23 @@
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 <body>
-  <div class="menu"> <!-- begin menu -->
-    <span>About</span>
-    <span>Projects</span>
-    <span>Contact</span>
-  </div> <!-- end menu -->
+
+  <div class="menu">
+    <input type="checkbox" id="check">
+    <label for="check" class="open"><i class="fas fa-bars"></i></label>
+    <nav>
+      <label for="check" class="close"><i class="fas fa-times"></i></label>
+      <ul>
+        <li class="li-inline"><a href="#">About Me</a></li>
+        <li class="li-inline"><a href="#">Projects</a></li>
+        <li class="li-inline"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
 
 
 
-
-  <script src="components/menu.js"></script>
 
 
 </body>

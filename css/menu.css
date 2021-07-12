@@ -1,26 +1,74 @@
-.menu
-  position: relative
-  span
-    position: absolute
-    background-color: black
-    padding: 15px 10px
-    border: 3px solid white
-    border-radius: 50%
-    transition: all 0.3s ease-in-out
-    &.hidden
-      visibility: hidden
-    &:last-child
-      padding: 13px 15px
-    &:nth-child(1)
-      background-color: lightblue
-      padding: 15px 15px
-      &.show
-        transform: rotate(0deg) translate(100px) rotate(0deg)
-    &:nth-child(2)
-      background-color: darkblue
-      &.show
-        transform: rotate(45deg) translate(100px) rotate(-45deg)
-    &:nth-child(3)
-      background-color: red
-      &.show
-        transform: rotate(90deg) translate(100px) rotate(-90deg)
+/*this is the menu that holds the links when expanded*/
+.menu nav {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    background: #000;
+    transition: all 0.5s ease;
+    clip-path: circle(0% at 30px 40px);
+}
+
+/*when the checkbox is checked, don't display the menu*/
+.menu #check {display: none;}
+
+/*when the menu is open*/
+.menu .open {
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    padding: 12px;
+    clip-path: circle();
+}
+
+/*when the menu is closed*/
+.menu nav .close {
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*styling for the list - move to the left 36px to avoid the icon*/
+.menu nav ul {
+    list-style: none;
+    margin-left: 36px;
+    display: inline;
+}
+
+/*make the list horizontal*/
+.li-inline {display: inline-block;}
+
+/*style the links in the list*/
+.menu nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/*transition for the closed menu*/
+.menu nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: 0.3s ease;
+    background: #fff;
+}
+
+.menu nav ul li a:hover::after {
+    width: 100%;
+}
+
+.menu #check:checked ~ nav {
+    clip-path: circle(100%);
+}
