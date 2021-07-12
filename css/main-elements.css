@@ -1,3 +1,22 @@
+:root {
+  --pink: #ff009d;
+  --orange: #ff5100;
+  --light-purple: #bf3c8d;
+  --purple: #775099;
+  --green: #00ad99;
+  --blue: #008cff;
+  --header: font-family: 'Russo One', sans-serif;
+}
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/*end font*/
+
 body {
-  background: linear-gradient(45deg,#ff009d,#ff5100);
+  background: linear-gradient(45deg,var(--pink),var(--orange));
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
 }
