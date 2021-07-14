@@ -25,6 +25,10 @@
   border-radius: 8px;
 }
 
+#chef {
+  width: 25vw;
+}
+
 .project-buttons {
   display: flex;
   align-items: flex-end;
@@ -45,5 +49,4 @@
   color: #fff;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-
 }
