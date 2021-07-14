@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 <body>
-  <div class="content-wrapper"> <!-- begin content-wrapper -->
-
-    <div class="menu"> <!-- begin menu -->
+  <div class="content-wrapper">
+<!-- BEGIN TOPNAV (MENU) -->
+    <div class="menu">
       <input type="checkbox" id="check">
       <label for="check" class="open"><i class="fas fa-bars"></i></label>
       <nav>
@@ -22,31 +22,36 @@
         </ul>
       </nav>
     </div> <!-- end menu -->
-
-    <div class="socials"> <!-- begin socials -->
-      <div class="github"> <!-- begin github -->
+<!-- END TOPNAV (MENU) -->
+<!-- BEGIN SOCIALS (GITHUB, LINKEDIN) -->
+    <div class="socials">
+      <div class="github">
         <a href="https://github.com/typexapex" target="blank"><i class="devicon-github-original"></i></a>
       </div> <!-- end github -->
-      <div class="linkedin"> <!-- begin linkedin -->
+      <div class="linkedin">
         <a href="https://www.linkedin.com/in/thomasasanders/" target="blank"><i class="devicon-linkedin-plain"></i></a>
       </div> <!-- end linkedin -->
     </div> <!-- end socials -->
-
-    <div class="content-container"> <!-- begin content-container -->
-
-      <div class="greeting-container"> <!-- begin greeting-container -->
-        <div class="greeting-card"> <!-- begin greeting-card -->
+<!-- END SOCIALS (GITHUB, LINKEDIN) -->
+<!-- BEGIN CONTENT -->
+    <div class="content-container">
+<!-- BEGIN GREETING -->
+      <div class="greeting-container">
+        <div class="greeting-card">
           <h1>Hey! I'm Thomas</h1>
           <p>I'm a fullstack developer, focused on the front-end</p>
         </div> <!-- end greeting-card -->
-        <div class="greeting-scroll"> <!-- begin greeting-scroll -->
-          <a href="#background"><i class="fas fa-chevron-circle-down"></i></a>
+        <div class="greeting-scroll">
+          <a href="#background">
+            <i class="fas fa-chevron-circle-down"></i>
+          </a>
         </div> <!-- end greeting-scroll -->
       </div> <!-- end greeting-card -->
+<!-- END GREETING -->
+<!-- BEGIN ABOUT / TECH -->
+      <div class="about-tech-container">
 
-      <div class="about-tech-container"> <!-- begin about-tech-container -->
-
-        <div class="about-card"> <!-- begin about-card -->
+        <div class="about-card">
           <h2>Me, In a Nutshell</h2>
           <p>From the US, but living in Japan since 2015.</p>
           <h3>Skillset</h3>
@@ -55,7 +60,7 @@
           <p>I enjoy playing PC games, listening to podcasts, and eating delicious food!</p>
         </div> <!-- end about-card -->
 
-        <div class="tech-card"> <!-- begin tech-card -->
+        <div class="tech-card">
           <h2>Tech Stack</h2>
           <h3>Languages</h3>
           <div class="languages">
@@ -82,17 +87,20 @@
           </div>
         </div> <!-- end tech-card -->
       </div>  <!-- end about-tech-container -->
-      <div class="about-tech-scroll"> <!-- begin about-tech-scroll -->
-        <a href="#split"><i class="fas fa-chevron-circle-down"></i></a>
+      <div class="about-tech-scroll">
+        <a href="#split">
+          <i class="fas fa-chevron-circle-down"></i>
+        </a>
       </div> <!-- end about-tech-scroll -->
-
+<!-- END ABOUT / TECH -->
+<!-- BEGIN PROJECT (SPLIT IT) -->
       <div class="project-container">
         <div class="project-left">
           <div class="project-text">
             <h2>Split-It</h2>
             <p>Split It is a web app that I helped create during my time at Le Wagon Tokyo. My fellow group members and I coded the entire project over a period of 2 weeks in June 2021, and I pitched it at Le Wagon's Pitch Night on Friday, June 11 to a crowd of ~80 on Zoom. My main contribution was on the front-end, although I had a hand in almost area.</p>
             <p>We began with an almost day-long brainstorm session, where we figured out the core user journey. We decided that the app was aimed at people in relationships who have separate bank accounts and need to split shared expenses evenly.</p>
-          </div>
+          </div> <!-- end project-text -->
           <div class="project-tech">
             <i class="devicon-rails-plain"></i>
             <i class="devicon-ruby-plain"></i>
@@ -105,30 +113,37 @@
             <i class="devicon-postgresql-plain"></i>
             <i class="devicon-github-original"></i>
             <i class="devicon-git-plain"></i>
-          </div>
-        </div>
+          </div> <!-- end project-tech -->
+        </div> <!-- end project-left -->
         <div class="project-right">
           <div class="project-img">
             <img src="images/split-it-group.png" id="split">
             <div class="project-buttons">
-              <div class="button"><a href="http://www.split-it.me" target="blank" class="project-link">Site</a></div>
-              <div class="button"><a href="https://github.com/typexapex/split-it" target="blank" class="project-link">Code</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
+              <div class="button">
+                <a href="http://www.split-it.me" target="blank" class="project-link">Site</a>
+              </div> <!-- end button (split it site) -->
+              <div class="button">
+                <a href="https://github.com/typexapex/split-it" target="blank" class="project-link">Code</a>
+              </div> <!-- end button (split it code) -->
+            </div> <!-- end project-buttons -->
+          </div> <!-- end project-img -->
+        </div> <!-- end project-right -->
+      </div> <!-- end project-container -->
 
-      <div class="project-scroll"> <!-- begin project-scroll -->
-        <a href="#chef"><i class="fas fa-chevron-circle-down"></i></a>
+      <div class="project-scroll">
+        <a href="#chef">
+          <i class="fas fa-chevron-circle-down"></i>
+        </a>
       </div> <!-- end project-scroll -->
-
+<!-- END PROJECT (SPLIT IT) -->
+<!-- BEGIN PROJECT (CHEF SPACE) -->
       <div class="project-container">
         <div class="project-left">
           <div class="project-text">
             <h2>Chef Space</h2>
             <p>Chef Space is an AirBnb clone website that I helped create during my time studying at Le Wagon in Tokyo. My fellow group members and I coded the entire project over a period of 5 days in May 2021. For this project, I was the project manager and also contributed to all parts of the project.</p>
             <p>We decided on a website where chefs who needed restaurant space could rent spaces from those that owned them. We made extensive use of Mapbox to pinpoint the restaurant locations on an interactive map.</p>
-          </div>
+          </div> <!-- end project-text -->
           <div class="project-tech">
             <i class="devicon-rails-plain"></i>
             <i class="devicon-ruby-plain"></i>
@@ -141,41 +156,52 @@
             <i class="devicon-postgresql-plain"></i>
             <i class="devicon-github-original"></i>
             <i class="devicon-git-plain"></i>
-          </div>
-        </div>
+          </div> <!-- end project-tech -->
+        </div> <!-- end project-left -->
         <div class="project-right">
           <div class="project-img">
             <img src="images/chef-space-landing.png" id="chef">
             <div class="project-buttons">
-              <div class="button"><a href="http://chefspace.herokuapp.com/" target="blank" class="project-link">Site</a></div>
-              <div class="button"><a href="https://github.com/typexapex/bill-bnb" target="blank" class="project-link">Code</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
+              <div class="button">
+                <a href="http://chefspace.herokuapp.com/" target="blank" class="project-link">Site</a>
+              </div> <!-- end button (chef space site) -->
+              <div class="button">
+                <a href="https://github.com/typexapex/bill-bnb" target="blank" class="project-link">Code</a>
+              </div> <!-- end button (chef space code) -->
+            </div> <!-- end project-buttons -->
+          </div> <!-- end project-img -->
+        </div> <!-- end project-right -->
+      </div> <!-- end project-container -->
 
       <div class="project-scroll"> <!-- begin project-scroll -->
-        <a href="#contact"><i class="fas fa-chevron-circle-down"></i></a>
+        <a href="#contact">
+          <i class="fas fa-chevron-circle-down"></i>
+        </a>
       </div> <!-- end project-scroll -->
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- END PROJECT (CHEF SPACE) -->
+<!-- BEGIN CONTACT -->
+      <div class="contact-container">
+        <h2>Let's Connect!</h2>
+        <div class="contact">
+          <form
+              action="https://formspree.io/f/xpzkjdro"
+              method="POST"
+          >
+            <label>
+              Your email:
+              <input type="email" name="_replyto">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+<!-- END CONTACT -->
     </div> <!-- end content-container -->
-
+<!-- END CONTENT -->
   </div> <!-- end content-wrapper -->
-
-
-
-
-
 </body>
 </html>
