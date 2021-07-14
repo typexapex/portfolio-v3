@@ -7,3 +7,7 @@
   height: 90vh;
   width: 100%;
 }
+
+.greeting-card p {
+  font-size: 1.5rem;
+}

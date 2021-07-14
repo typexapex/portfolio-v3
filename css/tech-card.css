@@ -12,12 +12,3 @@
   justify-content: left;
 }
 
-.tech-card h2, h3 {
-  text-decoration: underline;
-  margin-bottom: 8px;
-  color: var(--tan);
-}
-
-.tech-card > * > i {
-  margin-right: 8px;
-}

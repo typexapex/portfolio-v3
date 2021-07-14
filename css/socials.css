@@ -1,0 +1,22 @@
+/*socials*/
+.socials {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+}
+
+.socials > * {
+  margin: 0 12px;
+}
+
+.github a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.linkedin a {
+  text-decoration: none;
+  color: #fff;
+}
+/*end socials*/

@@ -1,8 +1,7 @@
 .about-card {
   width: 40%;
   background: var(--offwhite);
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3vh;
   box-shadow: var(--bshad)
 }
-

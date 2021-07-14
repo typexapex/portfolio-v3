@@ -13,15 +13,13 @@
   --header: 'Sansita', sans-serif;
   --text: 'Open Sans', sans-serif;
   --dtshad: 4px 3px 0px var(--gold), 9px 8px 0px rgba(213,111,49,1);
-  --tshad: 2px 1.5px 0px var(--red);
-  --bshad: 24px 24px 0px var(--gold);
+  --tshad: 2px 1.5px 0px var(--gold);
+  --bshad: 24px 24px 0px var(--orange);
 
 }
 
 body {
   background: linear-gradient(to top left, rgba(237,203,0,1) 50%, rgba(2,193,227,1) 50%);
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   position: relative;
   margin: 0;
@@ -52,18 +50,31 @@ h2 {
   margin: 0;
   color: var(--orange);
   text-shadow: var(--tshad);
+  margin-bottom: 8px;
 }
 
 h3 {
   font-family: var(--text);
-  font-size: 2rem;
-  margin: 0;
+  font-size: 1.5rem;
   color: var(--orange);
+  text-decoration: none;
+  margin: 8px 0px;
 }
 
 p {
   font-family: var(--text);
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 0;
-  color: var(--purple);
+  color: var(--dblue);
+}
+
+.highlight {
+  color: var(--yellow);
+}
+
+.line {
+  width: 90%;
+  border-bottom: 2px solid black;
+  opacity: 0.75;
+  margin-bottom: 8px;
 }
