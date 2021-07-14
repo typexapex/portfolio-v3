@@ -1,13 +1,8 @@
 .about-card {
-  /*height: 50vh;*/
   width: 40%;
-  background: var(--tan);
+  background: var(--offwhite);
   border-radius: 8px;
   padding: 3vh;
-  box-shadow: var(--shad)
+  box-shadow: var(--bshad)
 }
 
-.about-header {
-  text-decoration: underline;
-  color: var(--grn1);
-}

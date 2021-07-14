@@ -1,38 +1,25 @@
 /*font*/
-@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita:wght@700&display=swap');
 /*end font*/
 
 :root {
-  /*first scheme*/
-  /*--pink: #ff009d;
-  --orange: #ff5100;
-  --light-purple: #bf3c8d;
-  --purple: #775099;
-  --green: #00ad99;
-  --blue: #008cff;*/
-  /*second scheme*/
-  /*--grn1: #5daa68; use for background and maybe some text?*/
-  /*--grn2: #3f6844; use for box shadows and text shadows*/
-  /*--tan: #faf1cf; use for text and maybe some divs?*/
-  /*--shad: 6px 6px 0px rgba(25,41,27,0.2);*/
-  /*--tshad: 3px 3px 0px rgba(25,41,27,0.2);*/
-  /*fourth scheme*/
-  /*--dark: #0f0c24; use for background*/
-  /*--purple: #a350a3; use for divs, give a neon glow effect*/
-  /*--reddish: #c1436d; use for divs, give a neon glow effect*/
-  /*use white text*/
-  --purple: rgb(82,45,142);
-  --yellow: rgb(246,211,88);
-  --blue: rgb(88,123,246);
-  --red: rgb(246,88,123);
+  --yellow: rgb(237,203,0);
+  --blue: rgb(2,193,227);
+  --dblue: rgb(2,81,227);
+  --orange: rgb(213,111,49);
+  --gold: rgb(223,158,45);
+  --red: rgb(153,28,58);
+  --offwhite: #f5f5f5;
+  --header: 'Sansita', sans-serif;
+  --text: 'Open Sans', sans-serif;
+  --dtshad: 4px 3px 0px var(--gold), 9px 8px 0px rgba(213,111,49,1);
+  --tshad: 2px 1.5px 0px var(--red);
+  --bshad: 24px 24px 0px var(--gold);
+
 }
 
-
-
-
 body {
-  background: var(--yellow);
+  background: linear-gradient(to top left, rgba(237,203,0,1) 50%, rgba(2,193,227,1) 50%);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -41,32 +28,42 @@ body {
 }
 
 i {
-  color: var(--purple);
+  color: var(--dblue);
   font-size: 2rem;
-  text-shadow: 3px 3px 0px rgba(25, 41, 27, 0.2);
-}
-
-h1 {
-  color: var(--purple);
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-shadow: var(--tshad);
-}
-
-h2, h3, h4, h5, h6 {
-  color: var(--purple);
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-
-p {
-  color: var(--purple);
-  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .fa-chevron-circle-down {
   font-size: 1rem;
+}
+
+h1 {
+  font-family: var(--header);
+  font-size: 6rem;
+  margin: 0;
+  color: var(--yellow);
+  text-shadow: var(--dtshad);
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-family: var(--header);
+  font-size: 2.5rem;
+  margin: 0;
+  color: var(--orange);
+  text-shadow: var(--tshad);
+}
+
+h3 {
+  font-family: var(--text);
+  font-size: 2rem;
+  margin: 0;
+  color: var(--orange);
+}
+
+p {
+  font-family: var(--text);
+  font-size: 1.5rem;
+  margin: 0;
   color: var(--purple);
 }

@@ -10,7 +10,7 @@
 <body>
   <div class="content-wrapper">
 <!-- BEGIN TOPNAV (MENU) -->
-    <div class="menu">
+    <div class="menu" id="top">
       <input type="checkbox" id="check">
       <label for="check" class="open"><i class="fas fa-bars"></i></label>
       <nav>
@@ -42,14 +42,14 @@
           <p>I'm a fullstack developer, focused on the front-end</p>
         </div> <!-- end greeting-card -->
         <div class="greeting-scroll">
-          <a href="#background">
+          <a href="#about-tech">
             <i class="fas fa-chevron-circle-down"></i>
           </a>
         </div> <!-- end greeting-scroll -->
       </div> <!-- end greeting-card -->
 <!-- END GREETING -->
 <!-- BEGIN ABOUT / TECH -->
-      <div class="about-tech-container">
+      <div class="about-tech-container" id="about-tech">
 
         <div class="about-card">
           <h2>Me, In a Nutshell</h2>
@@ -86,10 +86,15 @@
             <i class="devicon-vscode-plain"></i>
           </div>
         </div> <!-- end tech-card -->
+        <div class="tech-scroll">
+          <a href="#split-it">
+            <i class="fas fa-chevron-circle-down"></i>
+          </a>
+        </div> <!-- end tech-scroll -->
       </div>  <!-- end about-tech-container -->
 <!-- END ABOUT / TECH -->
 <!-- BEGIN PROJECT (SPLIT IT) -->
-      <div class="project-container">
+      <div class="project-container" id="split-it">
         <div class="project-left">
           <div class="project-text">
             <h2>Split-It</h2>
@@ -123,9 +128,14 @@
           </div> <!-- end project-img -->
         </div> <!-- end project-right -->
       </div> <!-- end project-container -->
+      <div class="project-scroll">
+        <a href="#chef-space">
+          <i class="fas fa-chevron-circle-down"></i>
+        </a>
+      </div> <!-- end project-scroll -->
 <!-- END PROJECT (SPLIT IT) -->
 <!-- BEGIN PROJECT (CHEF SPACE) -->
-      <div class="project-container">
+      <div class="project-container" id="chef-space">
         <div class="project-left">
           <div class="project-text">
             <h2>Chef Space</h2>
@@ -159,9 +169,14 @@
           </div> <!-- end project-img -->
         </div> <!-- end project-right -->
       </div> <!-- end project-container -->
+      <div class="contact-scroll">
+        <a href="#contact">
+          <i class="fas fa-chevron-circle-down"></i>
+        </a>
+      </div> <!-- end contact-scroll -->
 <!-- END PROJECT (CHEF SPACE) -->
 <!-- BEGIN CONTACT -->
-      <div class="contact-container">
+      <div class="contact-container" id="contact">
         <div class="contact">
         <h2 class="contact-header">Let's Connect!</h2>
           <form action="https://formspree.io/f/xpzkjdro" method="POST">
@@ -169,8 +184,13 @@
             <textarea name="message" placeholder="your message here" id="email-message"></textarea><br><br>
             <button type="submit" class="contact-button">Send</button>
           </form>
-        </div>
-      </div>
+        </div> <!-- end contact -->
+      </div> <!-- end contact-container -->
+      <div class="top-scroll">
+        <a href="#top">
+          <i class="fas fa-chevron-circle-up"></i>
+        </a>
+      </div> <!-- end top-scroll -->
 <!-- END CONTACT -->
     </div> <!-- end content-container -->
 <!-- END CONTENT -->

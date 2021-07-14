@@ -1,31 +1,9 @@
 .greeting-card {
-  /*height: 160px;*/
-  /*width: 400px;*/
-  /*background: var(--tan);*/
-  /*border-radius: 8px;*/
   text-align: center;
-  /*padding: 3vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*box-shadow: var(--shad);*/
   height: 90vh;
   width: 100%;
-}
-
-.greeting-card h1 {
-  font-family: 'Spicy Rice', cursive;
-  /*font-size: 3.5em;*/
-  font-size: 8rem;
-  margin: 0;
-  color: var(--purple);
-  text-shadow: 4px 3px 0px var(--red), 9px 8px 0px rgba(88,123,246,0.5);
-}
-
-.greeting-card p {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  color: var(--blue);
-  font-size: 2rem;
 }
