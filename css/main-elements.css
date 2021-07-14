@@ -12,11 +12,11 @@
   --green: #00ad99;
   --blue: #008cff;*/
   /*second scheme*/
-  --grn1: #5daa68; /*use for background and maybe some text?*/
-  --grn2: #3f6844; /*use for box shadows and text shadows*/
-  --tan: #faf1cf; /*use for text and maybe some divs?*/
-  --shad: 6px 6px 0px rgba(25,41,27,0.2);
-  --tshad: 3px 3px 0px rgba(25,41,27,0.2);
+  /*--grn1: #5daa68; use for background and maybe some text?*/
+  /*--grn2: #3f6844; use for box shadows and text shadows*/
+  /*--tan: #faf1cf; use for text and maybe some divs?*/
+  /*--shad: 6px 6px 0px rgba(25,41,27,0.2);*/
+  /*--tshad: 3px 3px 0px rgba(25,41,27,0.2);*/
   /*fourth scheme*/
   /*--dark: #0f0c24; use for background*/
   /*--purple: #a350a3; use for divs, give a neon glow effect*/
@@ -41,20 +41,20 @@ body {
 }
 
 i {
-  color: var(--tan);
+  color: var(--purple);
   font-size: 2rem;
   text-shadow: 3px 3px 0px rgba(25, 41, 27, 0.2);
 }
 
 h1 {
-  color: var(--grn1);
+  color: var(--purple);
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   text-shadow: var(--tshad);
 }
 
 h2, h3, h4, h5, h6 {
-  color: var(--grn1);
+  color: var(--purple);
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   text-transform: uppercase;
@@ -62,11 +62,11 @@ h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: var(--grn1);
+  color: var(--purple);
   font-family: 'Open Sans', sans-serif;
 }
 
 .fa-chevron-circle-down {
   font-size: 1rem;
-  color: var(--tan);
+  color: var(--purple);
 }
