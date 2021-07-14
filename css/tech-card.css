@@ -1,17 +1,23 @@
 .tech-card {
-  height: 50vh;
+  /*height: 50vh;*/
   width: 40%;
   background: gray;
   border-radius: 8px;
   padding: 3vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: left;
 }
 
 .tech-card > * {
   display: flex;
-  align-items: center;
   justify-content: left;
+}
+
+.tech-card h2, h3 {
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+.tech-card > * > i {
+  margin-right: 8px;
 }
