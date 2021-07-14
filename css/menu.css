@@ -19,7 +19,7 @@
     left: 12px;
     cursor: pointer;
     background: transparent;
-    color: var(--tan);
+    color: var(--purple);
     padding: 12px;
     clip-path: circle();
 }
@@ -31,7 +31,7 @@
     top: 24px;
     left: 24px;
     cursor: pointer;
-    color: var(--tan);
+    color: var(--purple);
 }
 
 /*styling for the list - move to the left 36px to avoid the icon*/
@@ -47,12 +47,13 @@
 /*style the links in the list*/
 .menu nav ul li a {
     display: block;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 2rem;
     padding: 20px;
     text-align: center;
-    color: var(--tan);
+    color: var(--purple);
 }
 
 /*transition for the closed menu*/
@@ -62,7 +63,7 @@
     width: 0;
     height: 2px;
     transition: 0.3s ease;
-    background: var(--tan);
+    background: var(--purple);
 }
 
 .menu nav ul li a:hover::after {
