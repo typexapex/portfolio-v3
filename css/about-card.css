@@ -1,4 +1,5 @@
 .about-card {
+  height: 45vh;
   width: 40%;
   background: var(--offwhite);
   border-radius: 4px;
