@@ -42,8 +42,8 @@
 }
 /*end greeting container*/
 
-/*begin background-skills-container*/
-.background-skills-container {
+/*begin about-tech-container*/
+.about-tech-container {
   height: 80vh;
   width: 100%;
   display: flex;
