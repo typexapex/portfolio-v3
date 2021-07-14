@@ -1,19 +1,36 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&display=swap');
+/*end font*/
+
 :root {
-  --pink: #ff009d;
+  /*first scheme*/
+  /*--pink: #ff009d;
   --orange: #ff5100;
   --light-purple: #bf3c8d;
   --purple: #775099;
   --green: #00ad99;
-  --blue: #008cff;
-  --header: font-family: 'Russo One', sans-serif;
+  --blue: #008cff;*/
+  /*second scheme*/
+  /*--grn1: #5daa68; use for background and maybe some text?*/
+  /*--grn2: #3f6844; use for box shadows and text shadows*/
+  /*--tan: #faf1cf; use for text and maybe some divs?*/
+  /*third scheme*/
+  /*--dpink: #ee7879; use for text on blue background*/
+  /*--blue: #2a3166; use for background or text on pink or green divs*/
+  /*--pink: #f4abaa; use for div background*/
+  /*--green: #cae7df; use for div background*/
+  /*fourth scheme*/
+  /*--dark: #0f0c24; use for background*/
+  /*--purple: #a350a3; use for divs, give a neon glow effect*/
+  /*--reddish: #c1436d; use for divs, give a neon glow effect*/
+  /*use white text*/
 }
 
-/*font*/
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-/*end font*/
+
+
 
 body {
-  background: linear-gradient(45deg,var(--pink),var(--orange));
+  background: salmon;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
