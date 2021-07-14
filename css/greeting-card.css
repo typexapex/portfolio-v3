@@ -15,12 +15,10 @@
 .greeting-card h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 3.5em;
-  color: #fff;
   margin: 0;
 }
 
 .greeting-card p {
-  color: #fff;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }

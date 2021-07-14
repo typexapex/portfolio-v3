@@ -42,3 +42,12 @@
 }
 /*end greeting container*/
 
+/*begin background-skills-container*/
+.background-skills-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15vh;
+}
