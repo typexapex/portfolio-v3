@@ -1,7 +1,6 @@
 .tech-card {
   /*height: 50vh;*/
   width: 40%;
-  background: gray;
   border-radius: 8px;
   padding: 3vh;
   display: flex;
@@ -16,6 +15,7 @@
 .tech-card h2, h3 {
   text-decoration: underline;
   margin-bottom: 8px;
+  color: var(--tan);
 }
 
 .tech-card > * > i {

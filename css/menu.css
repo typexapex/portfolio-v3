@@ -19,7 +19,7 @@
     left: 12px;
     cursor: pointer;
     background: transparent;
-    color: #fff;
+    color: var(--tan);
     padding: 12px;
     clip-path: circle();
 }
@@ -31,7 +31,7 @@
     top: 24px;
     left: 24px;
     cursor: pointer;
-    color: #fff;
+    color: var(--tan);
 }
 
 /*styling for the list - move to the left 36px to avoid the icon*/
@@ -52,7 +52,7 @@
     font-size: 2rem;
     padding: 20px;
     text-align: center;
-    color: #fff;
+    color: var(--tan);
 }
 
 /*transition for the closed menu*/
@@ -62,7 +62,7 @@
     width: 0;
     height: 2px;
     transition: 0.3s ease;
-    background: #fff;
+    background: var(--tan);
 }
 
 .menu nav ul li a:hover::after {

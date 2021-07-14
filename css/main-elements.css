@@ -11,14 +11,11 @@
   --green: #00ad99;
   --blue: #008cff;*/
   /*second scheme*/
-  /*--grn1: #5daa68; use for background and maybe some text?*/
-  /*--grn2: #3f6844; use for box shadows and text shadows*/
-  /*--tan: #faf1cf; use for text and maybe some divs?*/
-  /*third scheme*/
-  /*--dpink: #ee7879; use for text on blue background*/
-  /*--blue: #2a3166; use for background or text on pink or green divs*/
-  /*--pink: #f4abaa; use for div background*/
-  /*--green: #cae7df; use for div background*/
+  --grn1: #5daa68; /*use for background and maybe some text?*/
+  --grn2: #3f6844; /*use for box shadows and text shadows*/
+  --tan: #faf1cf; /*use for text and maybe some divs?*/
+  --shad: 6px 6px 0px rgba(25,41,27,0.2);
+  --tshad: 3px 3px 0px rgba(25,41,27,0.2);
   /*fourth scheme*/
   /*--dark: #0f0c24; use for background*/
   /*--purple: #a350a3; use for divs, give a neon glow effect*/
@@ -30,7 +27,7 @@
 
 
 body {
-  background: salmon;
+  background: var(--grn1);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -39,28 +36,32 @@ body {
 }
 
 i {
-  color: #fff;
+  color: var(--tan);
   font-size: 2rem;
+  text-shadow: 3px 3px 0px rgba(25, 41, 27, 0.2);
 }
 
 h1 {
-  color: #fff;
+  color: var(--grn1);
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+  text-shadow: var(--tshad);
 }
 
 h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: var(--grn1);
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 p {
-  color: #fff;
+  color: var(--grn1);
   font-family: 'Open Sans', sans-serif;
 }
 
 .fa-chevron-circle-down {
   font-size: 1rem;
+  color: var(--tan);
 }

@@ -1,11 +1,13 @@
 .about-card {
-  height: 50vh;
+  /*height: 50vh;*/
   width: 40%;
-  background: gray;
+  background: var(--tan);
   border-radius: 8px;
   padding: 3vh;
+  box-shadow: var(--shad)
 }
 
-.about-card h2, h3 {
+.about-header {
   text-decoration: underline;
+  color: var(--grn1);
 }

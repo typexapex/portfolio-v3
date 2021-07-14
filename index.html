@@ -54,9 +54,9 @@
         <div class="about-card">
           <h2>Me, In a Nutshell</h2>
           <p>From the US, but living in Japan since 2015.</p>
-          <h3>Skillset</h3>
+          <h3 class="about-header">Skillset</h3>
           <p>I'm experienced with the processes of product creation, from concept to wireframing, to prototyping, to production. I enjoy making unique, user-friendly interfaces the most.</p>
-          <h3>When I'm Not Coding</h3>
+          <h3 class="about-header">When I'm Not Coding</h3>
           <p>I enjoy playing PC games, listening to podcasts, and eating delicious food!</p>
         </div> <!-- end about-card -->
 
@@ -87,11 +87,6 @@
           </div>
         </div> <!-- end tech-card -->
       </div>  <!-- end about-tech-container -->
-      <div class="about-tech-scroll">
-        <a href="#split">
-          <i class="fas fa-chevron-circle-down"></i>
-        </a>
-      </div> <!-- end about-tech-scroll -->
 <!-- END ABOUT / TECH -->
 <!-- BEGIN PROJECT (SPLIT IT) -->
       <div class="project-container">
@@ -113,28 +108,21 @@
             <i class="devicon-postgresql-plain"></i>
             <i class="devicon-github-original"></i>
             <i class="devicon-git-plain"></i>
+            <div class="button">
+              <a href="http://www.split-it.me" target="blank" class="project-link">Site</a>
+            </div> <!-- end button (split it site) -->
+            <div class="button">
+              <a href="https://github.com/typexapex/split-it" target="blank" class="project-link">Code</a>
+            </div> <!-- end button (split it code) -->
           </div> <!-- end project-tech -->
         </div> <!-- end project-left -->
         <div class="project-right">
-          <div class="project-img">
+          <div class="project-img" id="split-img">
             <img src="images/split-it-group.png" id="split">
-            <div class="project-buttons">
-              <div class="button">
-                <a href="http://www.split-it.me" target="blank" class="project-link">Site</a>
-              </div> <!-- end button (split it site) -->
-              <div class="button">
-                <a href="https://github.com/typexapex/split-it" target="blank" class="project-link">Code</a>
-              </div> <!-- end button (split it code) -->
-            </div> <!-- end project-buttons -->
+            <img src="images/split-it-settle.png" id="split">
           </div> <!-- end project-img -->
         </div> <!-- end project-right -->
       </div> <!-- end project-container -->
-
-      <div class="project-scroll">
-        <a href="#chef">
-          <i class="fas fa-chevron-circle-down"></i>
-        </a>
-      </div> <!-- end project-scroll -->
 <!-- END PROJECT (SPLIT IT) -->
 <!-- BEGIN PROJECT (CHEF SPACE) -->
       <div class="project-container">
@@ -156,46 +144,30 @@
             <i class="devicon-postgresql-plain"></i>
             <i class="devicon-github-original"></i>
             <i class="devicon-git-plain"></i>
+            <div class="button">
+              <a href="http://chefspace.herokuapp.com/" target="blank" class="project-link">Site</a>
+            </div> <!-- end button (chef space site) -->
+            <div class="button">
+              <a href="https://github.com/typexapex/bill-bnb" target="blank" class="project-link">Code</a>
+            </div> <!-- end button (chef space code) -->
           </div> <!-- end project-tech -->
         </div> <!-- end project-left -->
         <div class="project-right">
-          <div class="project-img">
+          <div class="project-img" id="chef-img">
             <img src="images/chef-space-landing.png" id="chef">
-            <div class="project-buttons">
-              <div class="button">
-                <a href="http://chefspace.herokuapp.com/" target="blank" class="project-link">Site</a>
-              </div> <!-- end button (chef space site) -->
-              <div class="button">
-                <a href="https://github.com/typexapex/bill-bnb" target="blank" class="project-link">Code</a>
-              </div> <!-- end button (chef space code) -->
-            </div> <!-- end project-buttons -->
+            <img src="images/chef-space-map.png" id="chef">
           </div> <!-- end project-img -->
         </div> <!-- end project-right -->
       </div> <!-- end project-container -->
-
-      <div class="project-scroll"> <!-- begin project-scroll -->
-        <a href="#contact">
-          <i class="fas fa-chevron-circle-down"></i>
-        </a>
-      </div> <!-- end project-scroll -->
 <!-- END PROJECT (CHEF SPACE) -->
 <!-- BEGIN CONTACT -->
       <div class="contact-container">
-        <h2>Let's Connect!</h2>
         <div class="contact">
-          <form
-              action="https://formspree.io/f/xpzkjdro"
-              method="POST"
-          >
-            <label>
-              Your email:
-              <input type="email" name="_replyto">
-            </label>
-            <label>
-              Your message:
-              <textarea name="message"></textarea>
-            </label>
-            <button type="submit">Send</button>
+        <h2 class="contact-header">Let's Connect!</h2>
+          <form action="https://formspree.io/f/xpzkjdro" method="POST">
+            <input type="email" name="_replyto" placeholder="your email here" id="email-address"><br><br>
+            <textarea name="message" placeholder="your message here" id="email-message"></textarea><br><br>
+            <button type="submit" class="contact-button">Send</button>
           </form>
         </div>
       </div>

@@ -1,52 +1,74 @@
 .project-left {
-  height: 70vh;
+  /*height: 70vh;*/
   width: 45vw;
-  background: gray;
+  background: var(--tan);
   border-radius: 8px;
   padding: 3vh;
   margin-right: 64px;
+  box-shadow: var(--shad);
+}
+
+.project-left i {
+  color: var(--grn1);
+  text-shadow: none;
 }
 
 .project-right {
-  height: 70vh;
-  width: 25vw;
-  background: gray;
+  /*height: 70vh;*/
+  /*width: 25vw;*/
+  /*background: var(--tan);*/
   border-radius: 8px;
   padding: 3vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /*box-shadow: var(--shad);*/
 }
 
 #split {
   height: 60vh;
-  margin-bottom: 16px;
   border-radius: 8px;
+  box-shadow: var(--shad);
+  margin-right: 8px;
 }
 
 #chef {
-  width: 25vw;
-}
-
-.project-buttons {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  width: 35vw;
+  margin-bottom: 8px;
+  border-radius: 8px;
 }
 
 .button {
   width: 80px;
   height: 30px;
   border-radius: 8px;
-  border: 1px solid #fff;
+  border: 1px solid var(--grn1);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 16px;
 }
 
 .project-link {
-  color: #fff;
+  color: var(--grn1);
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
+}
+
+.project-tech {
+  display: flex;
+}
+
+.project-tech i {
+  margin-right: 8px;
+}
+
+#chef-img {
+  display: flex;
+  flex-direction: column;
+}
+
+#split-img {
+  display: flex;
 }
