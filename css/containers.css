@@ -39,6 +39,10 @@
   justify-content: space-between;
   margin-top: 15vh;
 }
+
+#chef-space {
+  flex-direction: row-reverse;
+}
 /*end project-container*/
 
 /*begin contact-container*/
