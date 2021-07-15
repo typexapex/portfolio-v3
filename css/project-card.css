@@ -132,5 +132,9 @@
   #code {
     right: 150%;
   }
+
+  #chef-b {
+    width: 60vh;
+  }
 }
 /*end small screens*/

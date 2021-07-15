@@ -79,3 +79,10 @@
     clip-path: circle(100%);
 }
 
+/*small screens*/
+@media screen and (max-width: 37.5em) {
+  .menu nav ul li a {
+    font-size: 1rem;
+  }
+}
+
