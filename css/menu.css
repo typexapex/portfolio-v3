@@ -10,7 +10,7 @@
     position: relative;
     background: transparent;
     transition: all 0.5s ease;
-    clip-path: circle(0% at 30px 40px);
+    clip-path: circle(0% at 1.875rem 2.5rem); /*30px 40px*/
 }
 
 /*when the checkbox is checked, don't display the menu*/
@@ -25,7 +25,7 @@
     cursor: pointer;
     background: transparent;
     color: var(--dblue);
-    padding: 12px;
+    padding: .75rem; /*12px*/
     clip-path: circle();
 }
 
@@ -33,8 +33,8 @@
 .menu nav .close {
     font-size: 2rem;
     position: absolute;
-    top: 12px;
-    left: 12px;
+    top: .75rem; /*12px*/
+    left: .75rem; /*12px*/
     cursor: pointer;
     color: var(--dblue);
 }
@@ -56,7 +56,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 2rem;
-    padding: 20px;
+    padding: 1.25rem; /*20px*/
     text-align: center;
     color: var(--dblue);
 }
