@@ -4,11 +4,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5vh;
+  padding: 3rem;
 }
 /*end content container*/
 
-/*begin greeting container*/
+/*begin greeting container large screen*/
 .greeting-container {
   height: 80vh;
   width: 100%;
@@ -17,7 +17,17 @@
   align-items: center;
   justify-content: space-between;
 }
-/*end greeting container*/
+/*end greeting container large screen*/
+/*begin small screen*/
+@media screen and (max-width: 37.5em) {
+  .about-tech-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+  }
+}
 
 /*begin about-tech-container*/
 .about-tech-container {
