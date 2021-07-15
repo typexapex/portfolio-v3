@@ -1,3 +1,4 @@
+/*large screens*/
 .about-card {
   height: 45vh;
   width: 40%;
@@ -6,3 +7,4 @@
   padding: 3vh;
   box-shadow: var(--bshad)
 }
+/*end large screens*/
