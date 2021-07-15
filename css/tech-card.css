@@ -6,7 +6,7 @@
   padding: 3vh;
   display: flex;
   flex-direction: column;
-  box-shadow: var(--ibshad);
+  box-shadow: var(--bshad);
 }
 
 .tech-card > * {
