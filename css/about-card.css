@@ -8,3 +8,22 @@
   box-shadow: var(--bshad)
 }
 /*end large screens*/
+/*small screens*/
+@media screen and (max-width: 37.5em) {
+  .about-card {
+    width: 75%;
+    height: 55vh;
+  }
+
+  .about-card h2 {
+    font-size: 1.5em;
+  }
+
+  .about-card h3 {
+    font-size: 1.25em;
+  }
+
+  .about-card p {
+    font-size: 1em;
+  }
+}
