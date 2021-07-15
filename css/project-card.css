@@ -79,3 +79,58 @@
 .project-left h2 {
   margin-bottom: 1rem; /*16px;*/
 }
+/*small screens*/
+@media screen and (max-width: 37.5em) {
+  .project-left h2 {
+    font-size: 1.5em;
+  }
+
+  .project-left i {
+    font-size: 1.25em;
+  }
+
+  .project-left {
+    width: 70vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 0;
+  }
+
+  .project-right {
+    width: 70vw;
+    height: 50vh;
+  }
+
+  #split {
+    height: auto;
+    width: 50%;
+  }
+
+  .project-tech {
+    display: flex;
+    flex-direction: column;
+    top: 1rem;
+    right: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .project-left p {
+    margin-bottom: 0;
+  }
+
+  .button {
+    position: absolute;
+    bottom: .5rem;
+  }
+
+  #site {
+    right: 750%;
+  }
+
+  #code {
+    right: 150%;
+  }
+}
+/*end small screens*/

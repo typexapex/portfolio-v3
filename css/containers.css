@@ -27,6 +27,17 @@
     justify-content: center;
     margin-bottom: 15vh;
   }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #chef-space {
+    flex-direction: column;
+  }
 }
 
 /*begin about-tech-container*/
