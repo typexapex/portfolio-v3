@@ -1,3 +1,8 @@
+.menu {
+  position: fixed;
+  z-index: 1;
+}
+
 /*this is the menu that holds the links when expanded*/
 .menu nav {
     height: 10vh;
@@ -15,11 +20,11 @@
 .menu .open {
     font-size: 2rem;
     position: absolute;
-    top: 12px;
-    left: 12px;
+    top: 0;
+    left: 0;
     cursor: pointer;
     background: transparent;
-    color: var(--purple);
+    color: var(--dblue);
     padding: 12px;
     clip-path: circle();
 }
@@ -28,32 +33,32 @@
 .menu nav .close {
     font-size: 2rem;
     position: absolute;
-    top: 24px;
-    left: 24px;
+    top: 12px;
+    left: 12px;
     cursor: pointer;
-    color: var(--purple);
+    color: var(--dblue);
 }
 
 /*styling for the list - move to the left 36px to avoid the icon*/
 .menu nav ul {
     list-style: none;
-    margin-left: 36px;
+    margin-left: 0;
     display: inline;
 }
 
 /*make the list horizontal*/
-.li-inline {display: inline-block;}
+.li-inline {display: inline-block; transform: translateY(-12px);}
 
 /*style the links in the list*/
 .menu nav ul li a {
     display: block;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--text);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 2rem;
     padding: 20px;
     text-align: center;
-    color: var(--purple);
+    color: var(--dblue);
 }
 
 /*transition for the closed menu*/
@@ -63,7 +68,7 @@
     width: 0;
     height: 2px;
     transition: 0.3s ease;
-    background: var(--purple);
+    background: var(--dblue);
 }
 
 .menu nav ul li a:hover::after {
