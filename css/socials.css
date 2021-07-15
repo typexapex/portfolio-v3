@@ -1,15 +1,15 @@
 /*socials*/
 .socials {
   position: fixed;
-  top: 48px;
-  left: 8px;
+  top: 3rem; /*48px;*/
+  left: .5rem; /*8px;*/
   display: flex;
   flex-direction: column;
   z-index: 1;
 }
 
 .socials > * {
-  margin: 8px 0;
+  margin: .5rem 0; /*8px*/
 }
 
 .github a {
