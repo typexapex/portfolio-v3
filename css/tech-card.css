@@ -1,3 +1,4 @@
+/*large screens*/
 .tech-card {
   height: 45vh;
   width: 40%;
@@ -23,4 +24,25 @@
 #tech-line {
   margin-bottom: 0;
 }
+/*end large screens*/
 
+/*small screens*/
+@media screen and (max-width: 37.5em) {
+  .tech-card {
+    width: 75%;
+    margin-top: 2em;
+  }
+
+  .tech-card h2 {
+    font-size: 1.5em;
+  }
+
+  .tech-card h3 {
+    font-size: 1.25em;
+  }
+
+  .tech-card i {
+    font-size: 1.25em;
+  }
+}
+/*end small screens*/
