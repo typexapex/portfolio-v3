@@ -1,7 +1,7 @@
 .contact {
   background: var(--offwhite);
   box-shadow: var(--bshad);
-  border-radius: 4px;
+  border-radius: .25rem; /*4px;*/
   padding: 3vh;
   width: 30vh;
   text-align: center;
@@ -10,17 +10,16 @@
 .contact-header {
   color: var(--orange);
   text-shadow: var(--tshad);
-  margin-bottom: 16px;
+  margin-bottom: 1rem; /*16px;*/
 }
 
 #email-message {
   font-family: var(--text);
   min-width: 90%;
-  height: 160px;
-  padding: 8px;
-  border-radius: 4px;
+  height: 10rem; /*160px;*/
+  padding: .5rem; /*8px;*/
+  border-radius: .25rem; /*4px;*/
   border: 1px solid var(--dblue);
-  /*box-shadow: var(--smbshad);*/
 }
 
 #email-address {
@@ -28,17 +27,16 @@
   height: auto;
   min-width: 30%;
   border: 1px solid var(--dblue);
-  border-radius: 4px;
-  padding: 8px;
-  /*box-shadow: var(--smbshad);*/
+  border-radius: .25rem; /*4px;*/
+  padding: .5rem; /*8px;*/
 }
 
 .contact-button {
   background: transparent;
   font-family: var(--text);
-  height: 30px;
-  width: 80px;
-  border-radius: 4px;
+  height: 1.875rem; /*30px;*/
+  width: 5rem; /*80px;*/
+  border-radius: .25rem; /*4px;*/
   border: 1px solid var(--dblue);
   box-shadow: var(--smbshad);
 }
