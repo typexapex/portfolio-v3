@@ -21,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
 }
 
 body {
@@ -32,7 +33,7 @@ body {
 
 i {
   color: var(--dblue);
-  font-size: 2rem;
+  font-size: 2rem; /*32px*/
   text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -50,7 +51,7 @@ h1 {
   margin: 0;
   color: var(--yellow);
   text-shadow: var(--dtshad);
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem; /*8px*/
 }
 
 h2 {
@@ -59,7 +60,7 @@ h2 {
   margin: 0;
   color: var(--orange);
   text-shadow: var(--tshad);
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem; /*8px*/
 }
 
 h3 {
@@ -67,7 +68,7 @@ h3 {
   font-size: 1.5rem;
   color: var(--orange);
   text-decoration: none;
-  margin: 8px 0px;
+  margin: 0.5rem 0; /*8px 0px*/
 }
 
 p {
@@ -85,5 +86,5 @@ p {
   width: 90%;
   border-bottom: 2px solid black;
   opacity: 0.75;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem; /*8px*/
 }
