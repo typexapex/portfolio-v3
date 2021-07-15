@@ -1,22 +1,22 @@
 /*socials*/
 .socials {
-  position: absolute;
-  top: 24px;
-  right: 24px;
+  position: fixed;
+  top: 48px;
+  left: 8px;
   display: flex;
+  flex-direction: column;
+  z-index: 1;
 }
 
 .socials > * {
-  margin: 0 12px;
+  margin: 8px 0;
 }
 
 .github a {
   text-decoration: none;
-  color: #fff;
 }
 
 .linkedin a {
   text-decoration: none;
-  color: #fff;
 }
 /*end socials*/
