@@ -13,8 +13,9 @@
   --header: 'Sansita', sans-serif;
   --text: 'Open Sans', sans-serif;
   --dtshad: 4px 3px 0px var(--gold), 9px 8px 0px rgba(153,28,58,1);
-  --tshad: 2px 1.5px 0px rgb(154,77,31);
+  --tshad: 2px 1.5px 0px rgb(153,28,58);
   --bshad: 24px 24px 0px var(--red);
+  --smbshad: 4px 4px 0 var(--red);
 
 }
 

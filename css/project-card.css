@@ -37,7 +37,7 @@
   height: 30px;
   border-radius: 4px;
   border: 1px solid var(--dblue);
-  box-shadow: 4px 4px 0 var(--red);
+  box-shadow: var(--smbshad);
   display: flex;
   justify-content: center;
   align-items: center;

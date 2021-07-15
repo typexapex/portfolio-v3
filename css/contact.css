@@ -1,44 +1,45 @@
 .contact {
-  background: var(--tan);
-  box-shadow: var(--shad);
-  border-radius: 8px;
+  background: var(--offwhite);
+  box-shadow: var(--bshad);
+  border-radius: 4px;
   padding: 3vh;
   width: 30vh;
   text-align: center;
 }
 
 .contact-header {
-  color: var(--grn1);
+  color: var(--orange);
   text-shadow: var(--tshad);
   margin-bottom: 16px;
 }
 
 #email-message {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--text);
   min-width: 90%;
   height: 160px;
   padding: 8px;
   border-radius: 4px;
-  border: none;
-  box-shadow: var(--shad);
+  border: 1px solid var(--dblue);
+  /*box-shadow: var(--smbshad);*/
 }
 
 #email-address {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--text);
   height: auto;
   min-width: 30%;
-  border: none;
+  border: 1px solid var(--dblue);
   border-radius: 4px;
   padding: 8px;
-  box-shadow: var(--shad);
+  /*box-shadow: var(--smbshad);*/
 }
 
 .contact-button {
   background: transparent;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--text);
   height: 30px;
   width: 80px;
-  border-radius: 15px;
-  border: 1px solid var(--grn1);
+  border-radius: 4px;
+  border: 1px solid var(--dblue);
+  box-shadow: var(--smbshad);
 }
 
