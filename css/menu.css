@@ -83,6 +83,8 @@
 @media screen and (max-width: 37.5em) {
   .menu nav ul li a {
     font-size: 1rem;
+    padding: 2rem .5rem;
+    text-shadow: 1px .75px 0px black;
   }
 }
 
