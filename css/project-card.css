@@ -118,6 +118,7 @@
 
   .project-left p {
     margin-bottom: 0;
+    font-size: .875em;
   }
 
   .button {
@@ -126,7 +127,7 @@
   }
 
   #site {
-    right: 750%;
+    right: 650%;
   }
 
   #code {
