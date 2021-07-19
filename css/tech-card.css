@@ -1,13 +1,13 @@
-/*large screens*/
 .tech-card {
-  height: 45vh;
-  width: 40%;
-  border-radius: .25rem; /*4px;*/
+  height: 55vh;
+  width: 75%;
   background: var(--offwhite);
-  padding: 3vh;
+  border-radius: .25rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   box-shadow: var(--bshad);
+  margin-bottom: 2rem;
 }
 
 .tech-card > * {
@@ -16,33 +16,19 @@
 }
 
 .tech-card > * > i {
-  font-size: 2rem;
-  margin-right: .5rem; /*8px;*/
+  font-size: 1.25rem;
+  margin-right: .5rem;
   text-shadow: none;
 }
 
 #tech-line {
   margin-bottom: 0;
 }
-/*end large screens*/
 
-/*small screens*/
-@media screen and (max-width: 37.5em) {
-  .tech-card {
-    width: 75%;
-    margin-top: 2em;
-  }
-
-  .tech-card h2 {
-    font-size: 1.5em;
-  }
-
-  .tech-card h3 {
-    font-size: 1.25em;
-  }
-
-  .tech-card i {
-    font-size: 1.25em;
-  }
+.tech-card h2 {
+  font-size: 1.5em;
 }
-/*end small screens*/
+
+.tech-card h3 {
+  font-size: 1.25em;
+}
