@@ -1,29 +1,22 @@
 /*large screens*/
 .about-card {
-  height: 45vh;
-  width: 40%;
+  height: 55vh;
+  width: 75%;
   background: var(--offwhite);
-  border-radius: .25rem; /*4px;*/
-  padding: 3vh;
-  box-shadow: var(--bshad)
+  border-radius: .25rem;
+  padding: 1rem;
+  box-shadow: var(--bshad);
+  margin-bottom: 2rem;
 }
-/*end large screens*/
-/*small screens*/
-@media screen and (max-width: 37.5em) {
-  .about-card {
-    width: 75%;
-    height: 55vh;
-  }
 
-  .about-card h2 {
-    font-size: 1.5rem;
-  }
+.about-card h2 {
+  font-size: 1.5rem;
+}
 
-  .about-card h3 {
-    font-size: 1.25rem;
-  }
+.about-card h3 {
+  font-size: 1.25rem;
+}
 
-  .about-card p {
-    font-size: .875rem;
-  }
+.about-card p {
+  font-size: .75rem;
 }
