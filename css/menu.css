@@ -1,17 +1,19 @@
+/*DIVS*/
 .menu {
   position: fixed;
   z-index: 1;
 }
 
-/*this is the menu that holds the links when expanded*/
+/*this is the div that holds the links when expanded*/
 .menu nav {
-    height: 10vh;
-    width: 100%;
-    position: relative;
-    background: transparent;
-    transition: all 0.5s ease;
-    clip-path: circle(0% at 1.875rem 2.5rem); /*30px 40px*/
+  height: 10vh;
+  width: 100%;
+  position: relative;
+  background: transparent;
+  transition: all 0.5s ease;
+  clip-path: circle(0% at 1.875rem 2.5rem);
 }
+/*END DIVS*/
 
 /*when the checkbox is checked, don't display the menu*/
 .menu #check {display: none;}
@@ -24,8 +26,8 @@
     left: 0;
     cursor: pointer;
     background: transparent;
-    color: var(--dblue);
-    padding: .75rem; /*12px*/
+    color: var(--drkBlue);
+    padding: .75rem;
     clip-path: circle();
 }
 
@@ -33,13 +35,12 @@
 .menu nav .close {
     font-size: 2rem;
     position: absolute;
-    top: .75rem; /*12px*/
-    left: .75rem; /*12px*/
+    top: .75rem;
+    left: .75rem;
     cursor: pointer;
-    color: var(--dblue);
+    color: var(--drkBlue);
 }
 
-/*styling for the list - move to the left 36px to avoid the icon*/
 .menu nav ul {
     list-style: none;
     margin-left: 0;
@@ -52,13 +53,14 @@
 /*style the links in the list*/
 .menu nav ul li a {
     display: block;
-    font-family: var(--text);
+    font-family: var(--textFont);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 2rem;
-    padding: 1.25rem; /*20px*/
+    font-size: 1rem;
+    padding: 2rem .5rem;
     text-align: center;
-    color: var(--dblue);
+    color: var(--drkBlue);
+    text-shadow: 1px .75px 0px black;
 }
 
 /*transition for the closed menu*/
@@ -68,7 +70,7 @@
     width: 0;
     height: 2px;
     transition: 0.3s ease;
-    background: var(--dblue);
+    background: var(--drkBlue);
 }
 
 .menu nav ul li a:hover::after {
@@ -79,12 +81,4 @@
     clip-path: circle(100%);
 }
 
-/*small screens*/
-@media screen and (max-width: 37.5em) {
-  .menu nav ul li a {
-    font-size: 1rem;
-    padding: 2rem .5rem;
-    text-shadow: 1px .75px 0px black;
-  }
-}
 
