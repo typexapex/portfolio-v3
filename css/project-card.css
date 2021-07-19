@@ -5,7 +5,7 @@
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
-  box-shadow: var(--bshad);
+  box-shadow: var(--boxShad);
   position: relative;
   display: grid;
   grid-template-columns: 90% 2rem;
@@ -45,9 +45,9 @@
   width: 5rem;
   height: 1.875rem;
   border-radius: .25rem;
-  border: 1px solid var(--dblue);
+  border: 1px solid var(--drkBlue);
   background: var(--offwhite);
-  box-shadow: var(--smbshad);
+  box-shadow: var(--smallBoxShad);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,9 +71,9 @@
 
 /*TEXT*/
 .project-link {
-  color: var(--dblue);
+  color: var(--drkBlue);
   text-decoration: none;
-  font-family: var(--text);
+  font-family: var(--textFont);
 }
 
 .project-left h2 {

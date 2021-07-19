@@ -1,14 +1,14 @@
 .socials {
   position: fixed;
-  top: 3rem; /*48px;*/
-  left: .5rem; /*8px;*/
+  top: 3rem;
+  left: .5rem;
   display: flex;
   flex-direction: column;
   z-index: 1;
 }
 
 .socials > * {
-  margin: .5rem 0; /*8px*/
+  margin: .5rem 0;
 }
 
 .github a {

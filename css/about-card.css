@@ -5,7 +5,7 @@
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
-  box-shadow: var(--bshad);
+  box-shadow: var(--boxShad);
   margin-bottom: 3rem;
 }
 /*END DIVS*/

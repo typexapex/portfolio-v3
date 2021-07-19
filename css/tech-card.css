@@ -7,7 +7,7 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  box-shadow: var(--bshad);
+  box-shadow: var(--boxShad);
   margin-bottom: 2rem;
 }
 

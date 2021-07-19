@@ -1,7 +1,7 @@
 /*DIVS*/
 .contact {
   background: var(--offwhite);
-  box-shadow: var(--bshad);
+  box-shadow: var(--boxShad);
   border-radius: .25rem;
   padding: 1rem;
   width: 75%;
@@ -12,26 +12,26 @@
 /*TEXT*/
 .contact-header {
   color: var(--orange);
-  text-shadow: var(--tshad);
+  text-shadow: var(--textShad);
   margin-bottom: 1rem;
 }
 /*END TEXT*/
 
 /*INPUT & TEXTAREA*/
 #email-message {
-  font-family: var(--text);
+  font-family: var(--textFont);
   min-width: 90%;
   height: 10rem;
   padding: .5rem;
   border-radius: .25rem;
-  border: 1px solid var(--dblue);
+  border: 1px solid var(--drkBlue);
 }
 
 #email-address {
-  font-family: var(--text);
+  font-family: var(--textFont);
   height: auto;
   min-width: 90%;
-  border: 1px solid var(--dblue);
+  border: 1px solid var(--drkBlue);
   border-radius: .25rem;
   padding: .5rem;
 }
@@ -40,11 +40,11 @@
 /*BUTTON*/
 .contact-button {
   background: transparent;
-  font-family: var(--text);
+  font-family: var(--textFont);
   height: 1.875rem;
   width: 5rem;
   border-radius: .25rem;
-  border: 1px solid var(--dblue);
-  box-shadow: var(--smbshad);
+  border: 1px solid var(--drkBlue);
+  box-shadow: var(--smallBoxShad);
 }
 /*END BUTTON*/
