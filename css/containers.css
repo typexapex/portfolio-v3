@@ -2,6 +2,7 @@
   overflow: hidden;
 }
 
+/*CREATES THE FRAME FOR ALL THE CONTENT*/
 .content-container {
   display: flex;
   flex-direction: column;
@@ -9,6 +10,7 @@
   padding: 3rem;
 }
 
+/*HOLDS THE SITE GREETING*/
 .greeting-container {
   height: 85vh;
   width: 100%;
@@ -19,6 +21,7 @@
   margin-bottom: 3rem;
 }
 
+/*HOLDS THE ABOUT ME AND TECH STACK CARDS*/
 .about-tech-container {
   height: 85vh;
   width: 100%;
@@ -29,7 +32,8 @@
   margin-bottom: 6rem;
 }
 
-.project-container {
+/*HOLDS THE FEATURED PROJECTS*/
+.featured-project-container {
   height: 85vh;
   width: 100%;
   display: flex;
@@ -39,12 +43,14 @@
   margin-bottom: 6rem;
 }
 
+/*SOME STYLING SPECIFIC TO THE SECOND PROJECT TO SPACE THEM OUT*/
 #second-project {
   margin-top: 3rem;
 }
 
+/*HOLDS THE CONTACT FORM*/
 .contact-container {
-  height: 80vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   flex-direction: column;

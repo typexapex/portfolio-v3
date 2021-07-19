@@ -1,44 +1,50 @@
-/*large screens*/
+/*DIVS*/
 .contact {
   background: var(--offwhite);
   box-shadow: var(--bshad);
-  border-radius: .25rem; /*4px;*/
-  padding: 3vh;
-  width: 30vh;
+  border-radius: .25rem;
+  padding: 1rem;
+  width: 75%;
   text-align: center;
 }
+/*END DIVS*/
 
+/*TEXT*/
 .contact-header {
   color: var(--orange);
   text-shadow: var(--tshad);
-  margin-bottom: 1rem; /*16px;*/
+  margin-bottom: 1rem;
 }
+/*END TEXT*/
 
+/*INPUT & TEXTAREA*/
 #email-message {
   font-family: var(--text);
   min-width: 90%;
-  height: 10rem; /*160px;*/
-  padding: .5rem; /*8px;*/
-  border-radius: .25rem; /*4px;*/
+  height: 10rem;
+  padding: .5rem;
+  border-radius: .25rem;
   border: 1px solid var(--dblue);
 }
 
 #email-address {
   font-family: var(--text);
   height: auto;
-  min-width: 30%;
+  min-width: 90%;
   border: 1px solid var(--dblue);
-  border-radius: .25rem; /*4px;*/
-  padding: .5rem; /*8px;*/
+  border-radius: .25rem;
+  padding: .5rem;
 }
+/*END INPUT & TEXTAREA*/
 
+/*BUTTON*/
 .contact-button {
   background: transparent;
   font-family: var(--text);
-  height: 1.875rem; /*30px;*/
-  width: 5rem; /*80px;*/
-  border-radius: .25rem; /*4px;*/
+  height: 1.875rem;
+  width: 5rem;
+  border-radius: .25rem;
   border: 1px solid var(--dblue);
   box-shadow: var(--smbshad);
 }
-/*end large screens*/
+/*END BUTTON*/
