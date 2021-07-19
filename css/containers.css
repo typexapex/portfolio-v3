@@ -36,6 +36,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 6rem;
+}
+
+#second-project {
+  margin-top: 3rem;
 }
 
 .contact-container {
