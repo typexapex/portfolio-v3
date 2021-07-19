@@ -10,18 +10,16 @@
 }
 /*end content container*/
 
-/*begin greeting container large screen*/
 .greeting-container {
-  height: 75vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-/*end greeting container large screen*/
 /*begin small screen*/
-@media screen and (max-width: 37.5em) {
+@media screen and (max-width: 37.5rem) {
   .about-tech-container {
     display: flex;
     flex-direction: column;

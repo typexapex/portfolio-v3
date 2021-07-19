@@ -16,14 +16,14 @@
   }
 
   .about-card h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   .about-card h3 {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 
   .about-card p {
-    font-size: .875em;
+    font-size: .875rem;
   }
 }

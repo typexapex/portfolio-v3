@@ -47,7 +47,7 @@
 }
 
 /*make the list horizontal*/
-.li-inline {display: inline-block; transform: translateY(-12px);}
+.li-inline {display: inline-block; transform: translateY(-.75rem);}
 
 /*style the links in the list*/
 .menu nav ul li a {

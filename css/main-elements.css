@@ -21,19 +21,7 @@
 
 html {
   scroll-behavior: smooth;
-  --maxSize: 1.25; /*maximum font size in em*/
-  --minDim: 20; /*minimal viewport in em*/
-  --maxDim: 75; /*maximum viewport in em*/
-  font-size: clamp(
-    1em,
-    calc(
-      1em
-      + (var(--maxSize) - 1)
-      * (100vmin - var(--minDim) * 1em)
-      / (var(--maxDim) - var(--minDim))
-      ),
-    calc(var(--maxSize) * 1em)
-    );
+  font-size: 100%;
 }
 
 body {
@@ -59,7 +47,7 @@ i {
 
 h1 {
   font-family: var(--header);
-  font-size: 6rem;
+  font-size: 5.5rem;
   margin: 0;
   color: var(--yellow);
   text-shadow: var(--dtshad);
