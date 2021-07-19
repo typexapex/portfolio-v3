@@ -1,7 +1,8 @@
 /*DIVS*/
 .about-card {
-  height: 55vh;
-  width: 75%;
+  height: 40vh;
+  min-width: 14.5rem;
+  max-width: 34rem;
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
@@ -9,3 +10,4 @@
   margin-bottom: 3rem;
 }
 /*END DIVS*/
+

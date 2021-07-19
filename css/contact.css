@@ -6,6 +6,9 @@
   padding: 1rem;
   width: 75%;
   text-align: center;
+  min-width: 13.5rem;
+  max-width: 33.5rem;
+  height: 22.5rem;
 }
 /*END DIVS*/
 

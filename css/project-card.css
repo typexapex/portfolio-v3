@@ -1,19 +1,23 @@
 /*DIVS*/
 .project-left {
-  height: 45vh;
-  width: 75%;
+  max-height: 30vh;
+  min-width: 20rem;
+  max-width: 38.5rem;
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
   box-shadow: var(--boxShad);
   position: relative;
   display: grid;
-  grid-template-columns: 90% 2rem;
+  grid-teplate-rows: 90% 2rem;
+  margin-bottom: 2rem;
 }
 
 .project-right {
-  height: 45vh;
-  width: 75%;
+  min-height: 21rem;
+  max-height: 25rem;
+  min-width: 21rem;
+  max-width: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +27,9 @@
 
 .project-tech {
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
   justify-content: space-evenly;
-  margin-left: .5rem;
-  margin-right: .5rem;
+  margin-top: 1rem;
 }
 
 .project-text {
@@ -76,7 +78,4 @@
   font-family: var(--textFont);
 }
 
-.project-left h2 {
-  margin-bottom: 1rem;
-}
 /*END TEXT*/

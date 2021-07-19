@@ -50,6 +50,7 @@ h2 {
   font-size: 1.5rem;
   color: var(--orange);
   text-shadow: var(--textShad);
+  margin: 0 0 .5rem 0;
 }
 
 h3 {
@@ -65,10 +66,6 @@ p {
   font-size: .75rem;
   margin: 0;
   color: var(--drkBlue);
-}
-
-.highlight {
-  color: var(--yellow);
 }
 
 .line {

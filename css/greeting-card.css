@@ -11,3 +11,8 @@
 .greeting-card p {
   font-size: 1.5rem;
 }
+
+.highlight {
+  color: var(--yellow);
+  text-shadow: 2px 1.5px black;
+}
