@@ -1,3 +1,4 @@
+/*DIVS*/
 .tech-card {
   height: 55vh;
   width: 75%;
@@ -15,14 +16,16 @@
   justify-content: left;
 }
 
+#tech-line {
+  margin-bottom: 0;
+}
+/*END DIVS*/
+
+/*TEXT*/
 .tech-card > * > i {
   font-size: 1.25rem;
   margin-right: .5rem;
   text-shadow: none;
-}
-
-#tech-line {
-  margin-bottom: 0;
 }
 
 .tech-card h2 {
@@ -30,5 +33,6 @@
 }
 
 .tech-card h3 {
-  font-size: 1.25em;
+  font-size: 1em;
 }
+/*END TEXT*/

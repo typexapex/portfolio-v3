@@ -1,4 +1,4 @@
-/*large screens*/
+/*DIVS*/
 .about-card {
   height: 55vh;
   width: 75%;
@@ -8,15 +8,18 @@
   box-shadow: var(--bshad);
   margin-bottom: 3rem;
 }
+/*END DIVS*/
 
+/*TEXT*/
 .about-card h2 {
   font-size: 1.5rem;
 }
 
 .about-card h3 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .about-card p {
   font-size: .75rem;
 }
+/*END TEXT*/

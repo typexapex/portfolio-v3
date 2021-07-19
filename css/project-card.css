@@ -1,9 +1,10 @@
+/*DIVS*/
 .project-left {
   height: 45vh;
-  width: 45vw;
+  width: 75%;
   background: var(--offwhite);
   border-radius: .25rem; /*4px;*/
-  padding: 3vh;
+  padding: 1rem;
   margin-right: 4rem; /*64px;*/
   box-shadow: var(--bshad);
   position: relative;
@@ -11,29 +12,26 @@
   grid-template-columns: 90% 2rem;
 }
 
-.project-left i {
-  color: var(--dblue);
-  text-shadow: none;
-}
-
 .project-right {
   height: 45vh;
-  padding: 3vh;
+  width: 75%;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#split {
-  height: 26.5rem;
-  margin-right: .5rem; /*8px;*/
+.project-tech {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-left: .25rem;
 }
+/*END DIVS*/
 
-#chef-b {
-  width: 25rem;
-}
-
+/*BUTTONS*/
 .button {
   width: 5rem; /*80px;*/
   height: 1.875rem; /*30px;*/
@@ -45,6 +43,30 @@
   align-items: center;
   margin-left: 1rem; /*16px;*/
 }
+/*END BUTTONS*/
+
+/*PROJECT IMAGES*/
+#split {
+  height: auto;
+  width: 50%;
+  margin-right: .5rem; /*8px;*/
+}
+
+#chef {
+  width: 25rem;
+}
+
+#split-img {
+  display: flex;
+}
+/*END PROJECT IMAGES*/
+
+/*TEXT*/
+.project-left i {
+  color: var(--dblue);
+  text-shadow: none;
+  font-size: 1.25rem;
+}
 
 .project-link {
   color: var(--dblue);
@@ -52,90 +74,12 @@
   font-family: var(--text);
 }
 
-.project-tech {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  margin-left: .25rem;
-}
-
-.project-tech i {
-}
-
-#chef-img {
-  display: flex;
-  flex-direction: column;
-}
-
-#split-img {
-  display: flex;
-}
-
 .project-left p {
-  margin-bottom: .5rem; /*8px;*/
+  font-size: .75rem;
 }
 
 .project-left h2 {
-  margin-bottom: 1rem; /*16px;*/
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
-
-/*small screens*/
-@media screen and (max-width: 53.125rem) {
-  .project-left h2 {
-    font-size: 1.5em;
-  }
-
-  .project-left i {
-    font-size: 1.25em;
-  }
-
-  .project-left {
-    width: 70vw;
-    display: grid;
-    grid-template-columns: 90% 2rem;
-    margin: 0;
-  }
-
-  .project-right {
-    width: 70vw;
-    height: 50vh;
-  }
-
-  #split {
-    height: auto;
-    width: 50%;
-  }
-
-  .project-tech {
-    display: flex;
-    flex-direction: column;
-    top: 1rem;
-    right: 1rem;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-
-  .project-left p {
-    margin-bottom: 0;
-    font-size: .875em;
-  }
-
-  .button {
-    position: absolute;
-    bottom: .5rem;
-  }
-
-  #site {
-    right: 650%;
-  }
-
-  #code {
-    right: 150%;
-  }
-
-  #chef-b {
-    width: 60vh;
-  }
-}
-/*end small screens*/
+/*END TEXT*/
