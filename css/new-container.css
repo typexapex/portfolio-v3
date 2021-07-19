@@ -1,0 +1,32 @@
+.new-a {
+  height: 35vh;
+  background: var(--offwhite);
+  border-radius: .25rem;
+  padding: 1rem;
+  box-shadow: var(--boxShad);
+  min-width: 20rem;
+  max-width: 34rem;
+}
+
+.new-b {
+  height: 35vh;
+  background: var(--offwhite);
+  border-radius: .25rem;
+  padding: 1rem;
+  box-shadow: var(--boxShad);
+  min-width: 20rem;
+  max-width: 34rem;
+}
+
+.new-menu {
+  height: 5vh;
+  background: var(--offwhite);
+  border-radius: .25rem;
+  padding: 1rem;
+  box-shadow: var(--boxShad);
+  min-width: 20rem;
+  max-width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
