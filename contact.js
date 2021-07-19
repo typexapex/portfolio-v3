@@ -2,11 +2,11 @@
 const contactButton = document.querySelector('#contact');
 // event listeners
 contactButton.addEventListener('click', () => {
-  fetchContactText();
-  fetchContactForm();
+  fetchContactText(event);
+  fetchContactForm(event);
 });
 // functions to add about and tech to windows A and B
-function fetchContactText() {
+function fetchContactText(event) {
   const contactText =
      `
       <div class="contact-text-card">
@@ -17,9 +17,10 @@ function fetchContactText() {
       </div>
     `;
   windowA.innerHTML = contactText;
+  event.preventDefault();
 };
 
-function fetchContactForm() {
+function fetchContactForm(event) {
   const contactForm =
     `
     <div class="contact">
@@ -32,4 +33,5 @@ function fetchContactForm() {
     </div>
   `;
   windowB.innerHTML = contactForm;
+  event.preventDefault();
 };

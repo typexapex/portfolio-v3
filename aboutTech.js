@@ -5,11 +5,11 @@ const windowA = document.querySelector('.new-a');
 const windowB = document.querySelector('.new-b');
 // event listeners
 aboutButton.addEventListener('click', () => {
-  fetchAbout();
-  fetchTech();
+  fetchAbout(event);
+  fetchTech(event);
 });
 // functions to add about and tech to windows A and B
-function fetchAbout() {
+function fetchAbout(event) {
   const aboutCard =
      `
       <div class="about-card">
@@ -23,9 +23,10 @@ function fetchAbout() {
       </div>
     `;
   windowA.innerHTML = aboutCard;
+  event.preventDefault();
 };
 
-function fetchTech() {
+function fetchTech(event) {
   const techCard =
     `
     <div class="tech-card">
@@ -57,4 +58,5 @@ function fetchTech() {
     </div>
   `;
   windowB.innerHTML = techCard;
+  event.preventDefault();
 };
