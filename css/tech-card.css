@@ -23,16 +23,6 @@
 
 /*TEXT*/
 .tech-card > * > i {
-  font-size: 1.25rem;
   margin-right: .5rem;
-  text-shadow: none;
-}
-
-.tech-card h2 {
-  font-size: 1.5em;
-}
-
-.tech-card h3 {
-  font-size: 1em;
 }
 /*END TEXT*/

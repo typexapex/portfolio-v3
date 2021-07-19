@@ -13,8 +13,10 @@
 
 .github a {
   text-decoration: none;
+  text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .linkedin a {
   text-decoration: none;
+  text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.2);
 }
