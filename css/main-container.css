@@ -31,22 +31,24 @@
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
-  box-shadow: var(--boxShad);
   min-width: 20rem;
   max-width: 50rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   z-index: 2;
-  transition: 1s all ease;
+  position: absolute;
+}
+.main-menu-container {
   position: relative;
+  transition: 1s all ease;
+  min-width: 22rem;
+  max-width: 52rem;
+  height: 5vh;
 }
 
 .main-menu a {
-  text-decoration: none;
   color: var(--orange);
-  font-size: 1rem;
-  font-family: var(--headerFont);
 }
 
 .main-menu a:hover {
@@ -64,10 +66,16 @@
 
 .proj-sub-open {
   transition: 1s all ease;
+  box-shadow: none;
+}
+.proj-sub-closed {
+  transition: 1s all ease;
+  box-shadow: var(--boxShad);
 }
 
 .projects-menu {
   height: 2vh;
+  width: 85%;
   background: var(--offwhite);
   border-radius: 0 0 .25rem .25rem;
   padding: 1rem;
@@ -77,9 +85,8 @@
   align-items: center;
   justify-content: space-evenly;
   transition: 1s all ease;
-  position: absolute;
-  transform: translateY(3.8rem);
   background: linear-gradient(0deg, rgba(245,245,245,1) 70%, rgba(170,170,170,1) 96%);
+  transform: translateX(2.75%) translateY(4.5rem);
 }
 
 .proj-closed {

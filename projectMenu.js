@@ -10,6 +10,7 @@ projectsButton.addEventListener('click', () => {
 // function to transition the box shadow
 function boxShadTransition(event) {
   mainMenu.classList.toggle("proj-sub-open");
+  mainMenu.classList.toggle("proj-sub-closed");
   event.preventDefault();
 };
 // function to transition the sub-menu

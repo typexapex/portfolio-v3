@@ -31,7 +31,7 @@ function fetchSplitText(event) {
     `
     <div class="project-text">
       <h2>${projectList.splitIt.name}</h2>
-      <div class="line></div>"
+      <div class="line"></div>
       <p>${projectList.splitIt.description}</p>
     </div>
     <div class="project-tech">
@@ -45,8 +45,8 @@ function fetchSplitText(event) {
 function fetchSplitImage(event) {
   const splitImageCard =
   `
-  <div class="project-img" id="split-img">
-    <img src='${projectList.splitIt.image}' id="split">
+  <div class="project-img">
+    <img src='${projectList.splitIt.image}' id="split-img">
   </div>
   <div class="button-container">
     <div class="button" id="site">
@@ -86,8 +86,8 @@ function fetchChefText(event) {
 function fetchChefImage(event) {
   const chefImageCard =
   `
-  <div class="project-img" id="chef-img">
-    <img src='${projectList.chefSpace.image}' id="chef">
+  <div class="project-img">
+    <img src='${projectList.chefSpace.image}' id="chef-img">
   </div>
   <div class="button-container">
     <div class="button" id="site">
