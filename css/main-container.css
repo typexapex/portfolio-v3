@@ -42,6 +42,26 @@
   position: relative;
 }
 
+.main-menu a {
+  text-decoration: none;
+  color: var(--orange);
+  font-size: 1rem;
+  font-family: var(--headerFont);
+}
+
+.main-menu a:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
+.main-menu a:visited {
+  text-decoration: none;
+}
+
+.main-menu a:active {
+  color: var(--drkBlue);
+}
+
 .proj-sub-open {
   box-shadow: none;
 }
