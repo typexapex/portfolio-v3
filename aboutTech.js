@@ -1,8 +1,8 @@
 // variables for link buttons
 const aboutButton = document.querySelector('#about');
 // variables for windows
-const windowA = document.querySelector('.new-a');
-const windowB = document.querySelector('.new-b');
+const windowA = document.querySelector('.main-a');
+const windowB = document.querySelector('.main-b');
 // event listeners
 aboutButton.addEventListener('click', () => {
   fetchAbout(event);

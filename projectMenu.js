@@ -1,6 +1,6 @@
 // variable for projects button
 const projectsButton = document.querySelector('#projects');
-const mainMenu = document.querySelector('.new-menu');
+const mainMenu = document.querySelector('.main-menu');
 const subMenu = document.querySelector('.projects-menu');
 // event listener
 projectsButton.addEventListener('click', () => {
