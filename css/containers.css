@@ -58,15 +58,14 @@
   align-items: center;
 }
 
-/*NEW CONTAINER*/
-.new-container {
+/*MAIN CONTAINER*/
+.main-container {
   height: 95vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
 }
 /*LARGE SCREENS*/
 @media screen and (min-width: 1030px) {

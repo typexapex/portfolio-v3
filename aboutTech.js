@@ -42,7 +42,7 @@ function fetchTech(event) {
       <h3>Frameworks and Libraries</h3>
       <div>
         <i class="devicon-bootstrap-plain"></i>
-        <i class="devicon-postgresql-plain"></i>
+        <i class="devicon-postgresql-plain "></i>
         <i class="devicon-rails-plain"></i>
         <i class="devicon-sass-original"></i>
       </div>
@@ -57,6 +57,7 @@ function fetchTech(event) {
       </div>
     </div>
   `;
+
   windowB.innerHTML = techCard;
   event.preventDefault();
 };

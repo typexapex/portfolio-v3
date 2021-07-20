@@ -1,21 +1,27 @@
 .main-a {
-  height: 35vh;
+  height: 32vh;
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
   box-shadow: var(--boxShad);
   min-width: 20rem;
   max-width: 34rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-b {
-  height: 35vh;
+  height: 32vh;
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
   box-shadow: var(--boxShad);
   min-width: 20rem;
   max-width: 34rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-menu {

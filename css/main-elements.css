@@ -33,7 +33,7 @@ body {
 
 i {
   color: var(--drkBlue);
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 
 h1 {
@@ -47,7 +47,7 @@ h1 {
 
 h2 {
   font-family: var(--headerFont);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--orange);
   text-shadow: var(--textShad);
   margin: 0 0 .5rem 0;
@@ -55,7 +55,7 @@ h2 {
 
 h3 {
   font-family: var(--textFont);
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: var(--orange);
   text-decoration: none;
   margin: 0.5rem 0;
@@ -74,3 +74,4 @@ p {
   opacity: 0.75;
   margin-bottom: 0.5rem;
 }
+

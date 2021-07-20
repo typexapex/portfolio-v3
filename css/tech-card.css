@@ -1,21 +1,11 @@
 /*DIVS*/
 .tech-card {
-  min-width: 20rem;
-  max-width: 25rem;
-  background: var(--offwhite);
-  border-radius: .25rem;
-  padding: 1rem;
-  box-shadow: var(--boxShad);
-  margin-bottom: 2rem;
+  transition: opacity .8s ease-in-out;
 }
 
 .tech-card > * {
   display: flex;
   justify-content: left;
-}
-
-#tech-line {
-  margin-bottom: 0;
 }
 /*END DIVS*/
 
@@ -23,4 +13,6 @@
 .tech-card > * > i {
   margin-right: .5rem;
 }
+
 /*END TEXT*/
+

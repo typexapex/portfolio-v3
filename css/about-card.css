@@ -1,13 +1,6 @@
 /*DIVS*/
 .about-card {
-  height: 40vh;
-  min-width: 14.5rem;
-  max-width: 34rem;
-  background: var(--offwhite);
-  border-radius: .25rem;
-  padding: 1rem;
-  box-shadow: var(--boxShad);
-  margin-bottom: 3rem;
+  transition: opacity 0.8s ease-in-out;
 }
 /*END DIVS*/
 
