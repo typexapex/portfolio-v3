@@ -21,67 +21,13 @@
   margin-bottom: 3rem;
 }
 
-/*HOLDS THE ABOUT ME AND TECH STACK CARDS*/
-.about-tech-container {
-  height: 85vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 6rem;
-}
-
-/*HOLDS THE FEATURED PROJECTS*/
-.featured-project-container {
-  height: 85vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 6rem;
-}
-
-/*SOME STYLING SPECIFIC TO THE SECOND PROJECT TO SPACE THEM OUT*/
-#second-project {
-  margin-top: 3rem;
-}
-
-/*HOLDS THE CONTACT FORM*/
-.contact-container {
-  height: 85vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 /*MAIN CONTAINER*/
 .main-container {
   height: 95vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  gap: 2.5rem;
 }
-/*LARGE SCREENS*/
-@media screen and (min-width: 1030px) {
-  .about-tech-container {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    margin-bottom: -5rem;
-  }
-  .featured-project-container {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    margin-bottom: -8rem;
-  }
-  .greeting-container {
-    margin-bottom: -8rem;
-  }
-}
+
