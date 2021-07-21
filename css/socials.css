@@ -1,3 +1,4 @@
+/*DIVS*/
 .socials {
   position: fixed;
   top: 3rem;
@@ -7,10 +8,10 @@
   z-index: 1;
 }
 
-.socials > * {
-  margin: .5rem 0;
-}
+.socials > * { margin: .5rem 0; }
+/*END DIVS*/
 
+/*TEXT*/
 .github a {
   text-decoration: none;
   text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.2);
@@ -20,3 +21,4 @@
   text-decoration: none;
   text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.2);
 }
+/*END TEXT*/

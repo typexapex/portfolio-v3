@@ -1,3 +1,4 @@
+/*DIVS*/
 .greeting-card {
   text-align: center;
   display: flex;
@@ -7,12 +8,15 @@
   height: 90vh;
   width: 100%;
 }
+/*END DIVS*/
 
+/*TEXT*/
 .greeting-card p {
   font-size: 1.5rem;
 }
-
+/*highlights "front end" in the greeting message*/
 .highlight {
   color: var(--offwhite);
   text-shadow: 2px 1.5px black;
 }
+/*END TEXT*/

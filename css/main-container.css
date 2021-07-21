@@ -1,3 +1,4 @@
+/*DIVS*/
 .main-a {
   height: 32vh;
   background: var(--offwhite);
@@ -39,38 +40,13 @@
   z-index: 2;
   position: absolute;
 }
+/*not in containers file because it's inside another container*/
 .main-menu-container {
   position: relative;
   transition: 1s all ease;
   min-width: 22rem;
   max-width: 52rem;
   height: 5vh;
-}
-
-.main-menu a {
-  color: var(--orange);
-}
-
-.main-menu a:hover {
-  transform: scale(1.2);
-  text-decoration: none;
-}
-
-.main-menu a:visited {
-  text-decoration: none;
-}
-
-.main-menu a:active {
-  color: var(--drkBlue);
-}
-
-.proj-sub-open {
-  transition: 1s all ease;
-  box-shadow: none;
-}
-.proj-sub-closed {
-  transition: 1s all ease;
-  box-shadow: var(--boxShad);
 }
 
 .projects-menu {
@@ -88,7 +64,38 @@
   background: linear-gradient(0deg, rgba(245,245,245,1) 70%, rgba(170,170,170,1) 96%);
   transform: translateX(2.75%) translateY(4.5rem);
 }
+/*END DIVS*/
 
+/*TEXT*/
+.main-menu a {
+  color: var(--orange);
+}
+
+.main-menu a:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
+.main-menu a:visited {
+  text-decoration: none;
+}
+
+.main-menu a:active {
+  color: var(--drkBlue);
+}
+/*END TEXT*/
+
+/*STYLES FOR OPEN/CLOSED MENU STATES*/
+/*styles the main menu when the project sub-menu is open/closed*/
+.proj-sub-open {
+  transition: 1s all ease;
+  box-shadow: none;
+}
+.proj-sub-closed {
+  transition: 1s all ease;
+  box-shadow: var(--boxShad);
+}
+/*styles the sub-menu when it's open or closed*/
 .proj-closed {
   opacity: 0;
   transition: 1s all ease;
@@ -98,3 +105,4 @@
   transition: 1s all ease;
   opacity: 1;
 }
+/*END STYLES FOR OPEN/CLOSED MENU STATES*/

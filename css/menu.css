@@ -3,7 +3,6 @@
   position: fixed;
   z-index: 1;
 }
-
 /*this is the div that holds the links when expanded*/
 .menu nav {
   height: 10vh;
@@ -15,9 +14,31 @@
 }
 /*END DIVS*/
 
+/*TEXT*/
+.menu nav ul li a {
+    display: block;
+    font-family: var(--textFont);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 2rem .5rem;
+    text-align: center;
+    color: var(--drkBlue);
+    text-shadow: 1px .75px 0px black;
+}
+.menu nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: 0.3s ease;
+    background: var(--drkBlue);
+}
+.menu nav ul li a:hover::after { width: 100%; }
+/*END TEXT*/
+
 /*when the checkbox is checked, don't display the menu*/
 .menu #check {display: none;}
-
 /*when the menu is open*/
 .menu .open {
     font-size: 2rem;
@@ -30,7 +51,6 @@
     padding: .75rem;
     clip-path: circle();
 }
-
 /*when the menu is closed*/
 .menu nav .close {
     font-size: 2rem;
@@ -46,39 +66,7 @@
     margin-left: 0;
     display: inline;
 }
-
 /*make the list horizontal*/
 .li-inline {display: inline-block; transform: translateY(-.75rem);}
 
-/*style the links in the list*/
-.menu nav ul li a {
-    display: block;
-    font-family: var(--textFont);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    padding: 2rem .5rem;
-    text-align: center;
-    color: var(--drkBlue);
-    text-shadow: 1px .75px 0px black;
-}
-
-/*transition for the closed menu*/
-.menu nav ul li a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    transition: 0.3s ease;
-    background: var(--drkBlue);
-}
-
-.menu nav ul li a:hover::after {
-    width: 100%;
-}
-
-.menu #check:checked ~ nav {
-    clip-path: circle(100%);
-}
-
-
+.menu #check:checked ~ nav { clip-path: circle(100%); }

@@ -21,7 +21,7 @@
   margin-bottom: 3rem;
 }
 
-/*MAIN CONTAINER*/
+/*HOLDS THE INFORMATION - MAIN DISPLAY*/
 .main-container {
   height: 95vh;
   width: 100%;
@@ -30,4 +30,3 @@
   align-items: center;
   gap: 2.5rem;
 }
-

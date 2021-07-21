@@ -1,7 +1,5 @@
 /*DIVS*/
-.tech-card {
-  transition: opacity .8s ease-in-out;
-}
+.tech-card { transition: opacity .8s ease-in-out; }
 
 .tech-card > * {
   display: flex;
@@ -10,9 +8,5 @@
 /*END DIVS*/
 
 /*TEXT*/
-.tech-card > * > i {
-  margin-right: .5rem;
-}
-
+.tech-card > * > i { margin-right: .5rem; }
 /*END TEXT*/
-
