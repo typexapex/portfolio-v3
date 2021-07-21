@@ -1,1 +1,26 @@
+@media screen and (max-width: 900px) {
+  .content-wrapper {
+    overflow: hidden;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr 2.5rem;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      ". grt grt grt ."
+      ". box-a box-a box-a ."
+      ". box-a box-a box-a ."
+      ". box-b box-b box-b ."
+      ". box-b box-b box-b ."
+      ". menu menu menu ."
 
+  }
+  .main-a { box-shadow: var(--boxShadHalf); margin-bottom: 1rem; }
+  .main-b { box-shadow: var(--boxShadHalf); }
+  .projects-menu { box-shadow: var(--boxShadHalf); }
+  .greeting- card h1 { font-size: 2rem; }
+  .greeting-card p { font-size: 1rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1rem; }
+  .tech-card > * > i { font-size: 2rem !important; }
+  .proj-sub-closed { box-shadow: var(--boxShadHalf); }
+}
