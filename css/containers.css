@@ -12,32 +12,3 @@
       ". . . . menu menu menu menu menu . . . ."
       ". . . . . . . . . . . . .";
 }
-
-/*CREATES THE FRAME FOR ALL THE CONTENT*/
-/*.content-container {*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*padding: 3rem;*/
-/*}*/
-
-/*HOLDS THE SITE GREETING*/
-/*.greeting-container {*/
-  /*height: 85vh;*/
-  /*width: 100%;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*justify-content: space-between;*/
-  /*margin-bottom: 3rem;*/
-/*}*/
-
-/*HOLDS THE INFORMATION - MAIN DISPLAY*/
-/*.main-container {*/
-  /*height: 95vh;*/
-  /*width: 100%;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*gap: 2.5rem;*/
-/*}*/
