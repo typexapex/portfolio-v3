@@ -36,7 +36,6 @@
 /*not in containers file because it's inside another container*/
 .main-menu-container {
   position: relative;
-  transition: 1s all ease;
   grid-area: menu;
   margin-top: 2rem;
   display: flex;
@@ -46,15 +45,14 @@
 .projects-menu {
   background: var(--offwhite);
   border-radius: 0 0 .25rem .25rem;
-  padding: .25rem;
+  padding: .25rem 1rem;
   display: flex;
-  width: 100%;
   align-items: center;
-  justify-content: space-evenly;
-  transition: 1s all ease;
+  justify-content: center;
   background: var(--offwhite);
-  box-shadow: var(--boxShad);
+  box-shadow: .75rem .75rem 0 var(--red);
   transform: translateX(2.75%) translateY(4.5rem);
+  height: 50%;
 }
 /*END DIVS*/
 
@@ -75,27 +73,32 @@
 .main-menu a:active {
   color: var(--drkBlue);
 }
+.projects-menu a {
+  margin-right: 1rem;
+}
+.projects-menu a:last-child {
+  margin-right: 0;
+}
 /*END TEXT*/
 
 /*STYLES FOR OPEN/CLOSED MENU STATES*/
 /*styles the main menu when the project sub-menu is open/closed*/
 .proj-sub-open {
-  transition: 1s all ease;
+  transition: .5s all ease;
   box-shadow: .75rem .75rem 0 var(--red);
 }
 .proj-sub-closed {
-  transition: 1s all ease;
+  transition: .5s all ease;
   box-shadow: var(--boxShad);
 }
 /*styles the sub-menu when it's open or closed*/
 .proj-closed {
   opacity: 0;
-  transition: 1s all ease;
 }
 
 .proj-open {
-  transition: 1s all ease;
   opacity: 1;
+  transition: .5s ease;
 }
 /*END STYLES FOR OPEN/CLOSED MENU STATES*/
 
