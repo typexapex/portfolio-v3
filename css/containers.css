@@ -1,32 +1,14 @@
 .content-wrapper {
   overflow: hidden;
-}
-
-/*CREATES THE FRAME FOR ALL THE CONTENT*/
-.content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3rem;
-}
-
-/*HOLDS THE SITE GREETING*/
-.greeting-container {
-  height: 85vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 3rem;
-}
-
-/*HOLDS THE INFORMATION - MAIN DISPLAY*/
-.main-container {
-  height: 95vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
+  width: 100vw;
+  display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      ". . grt grt grt grt grt grt grt grt grt . ."
+      ". box-a box-a box-a box-a box-a . box-b box-b box-b box-b box-b ."
+      ". box-a box-a box-a box-a box-a . box-b box-b box-b box-b box-b ."
+      ". box-a box-a box-a box-a box-a . box-b box-b box-b box-b box-b ."
+      ". . . . menu menu menu menu menu . . . ."
+      ". . . . . . . . . . . . .";
 }

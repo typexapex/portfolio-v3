@@ -1,6 +1,6 @@
-/*font*/
+/*FONT*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita:wght@700&display=swap');
-/*end font*/
+/*END FONT*/
 
 :root {
   --yellow: rgb(237,203,0);
@@ -38,11 +38,10 @@ i {
 
 h1 {
   font-family: var(--headerFont);
-  font-size: 5.5rem;
+  font-size: 4rem;
   margin: 0;
   color: var(--yellow);
   text-shadow: var(--doubleTextShad);
-  margin-bottom: 0.5rem;
 }
 
 h2 {
