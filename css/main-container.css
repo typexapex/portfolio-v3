@@ -1,33 +1,27 @@
 /*DIVS*/
 .main-a {
-  height: 32vh;
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
   box-shadow: var(--boxShad);
-  min-width: 20rem;
-  max-width: 34rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
+  grid-area: box-a;
 }
 
 .main-b {
-  height: 32vh;
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
   box-shadow: var(--boxShad);
-  min-width: 20rem;
-  max-width: 34rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  grid-area: box-b;
 }
 
 .main-menu {
-  height: 5vh;
   background: var(--offwhite);
   border-radius: .25rem;
   padding: 1rem;
@@ -43,24 +37,23 @@
 .main-menu-container {
   position: relative;
   transition: 1s all ease;
-  min-width: 22rem;
-  max-width: 52rem;
-  height: 5vh;
+  grid-area: menu;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .projects-menu {
-  height: 2vh;
-  width: 85%;
   background: var(--offwhite);
   border-radius: 0 0 .25rem .25rem;
-  padding: 1rem;
-  min-width: 18rem;
-  max-width: 45rem;
+  padding: .25rem;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-evenly;
   transition: 1s all ease;
-  background: linear-gradient(0deg, rgba(245,245,245,1) 70%, rgba(170,170,170,1) 96%);
+  background: var(--offwhite);
+  box-shadow: var(--boxShad);
   transform: translateX(2.75%) translateY(4.5rem);
 }
 /*END DIVS*/
@@ -88,7 +81,7 @@
 /*styles the main menu when the project sub-menu is open/closed*/
 .proj-sub-open {
   transition: 1s all ease;
-  box-shadow: none;
+  box-shadow: .75rem .75rem 0 var(--red);
 }
 .proj-sub-closed {
   transition: 1s all ease;

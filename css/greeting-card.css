@@ -5,14 +5,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
-  width: 100%;
+  grid-area: grt;
+  margin-bottom: 1rem;
 }
 /*END DIVS*/
 
 /*TEXT*/
 .greeting-card p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 /*highlights "front end" in the greeting message*/
 .highlight {
