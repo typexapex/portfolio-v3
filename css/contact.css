@@ -1,36 +1,17 @@
 /*DIVS*/
 .contact-text-card {
-  text-align: center;
 }
 
 .contact-form-card {
   text-align: center;
+  padding-top: 15%;
 }
 /*END DIVS*/
 
 /*TEXT*/
-.contact-header {
-  position: absolute;
-  top: 2.5rem;
-  left: 6rem;
-}
-
-.contact-p1 {
-  position: absolute;
-  top: 8rem;
-  left: 6rem;
-}
-
-.contact-p2 {
-  position: absolute;
-  top: 11rem;
-  left: 7rem;
-}
-
-.contact-p3 {
-  position: absolute;
-  top: 14rem;
-  left: 4rem;
+.contact-text-card p {
+  font-size: 1.25rem;
+  margin: 1rem 0 2rem 0;
 }
 /*END TEXT*/
 

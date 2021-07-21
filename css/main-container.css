@@ -70,12 +70,20 @@
 
 .main-menu a:active {
   color: var(--drkBlue);
+  transform: scale(1.2);
 }
 .projects-menu a {
   margin-right: 1rem;
 }
 .projects-menu a:last-child {
   margin-right: 0;
+  margin-left: 1rem;
+}
+.projects-menu a:hover {
+  transform: scale(1.2);
+}
+.projects-menu a:active {
+  transform: scale(1.2);
 }
 /*END TEXT*/
 
