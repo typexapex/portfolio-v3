@@ -34,26 +34,26 @@ function fetchTech(event) {
       <div class="line" id="tech-line"></div>
       <h3>Languages</h3>
       <div>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-ruby-plain"></i>
+        <i class="devicon-css3-plain" id="tech-icon"></i>
+        <i class="devicon-html5-plain" id="tech-icon"></i>
+        <i class="devicon-javascript-plain id="tech-icon""></i>
+        <i class="devicon-ruby-plain" id="tech-icon"></i>
       </div>
       <h3>Frameworks and Libraries</h3>
       <div>
-        <i class="devicon-bootstrap-plain"></i>
-        <i class="devicon-postgresql-plain "></i>
-        <i class="devicon-rails-plain"></i>
-        <i class="devicon-sass-original"></i>
+        <i class="devicon-bootstrap-plain" id="tech-icon"></i>
+        <i class="devicon-postgresql-plain" id="tech-icon"></i>
+        <i class="devicon-rails-plain" id="tech-icon"></i>
+        <i class="devicon-sass-original" id="tech-icon"></i>
       </div>
       <h3>Tools</h3>
       <div>
-        <i class="devicon-figma-plain"></i>
-        <i class="devicon-git-plain"></i>
-        <i class="devicon-github-original"></i>
-        <i class="devicon-heroku-original"></i>
-        <i class="devicon-trello-plain"></i>
-        <i class="devicon-vscode-plain"></i>
+        <i class="devicon-figma-plain" id="tech-icon"></i>
+        <i class="devicon-git-plain" id="tech-icon"></i>
+        <i class="devicon-github-original" id="tech-icon"></i>
+        <i class="devicon-heroku-original" id="tech-icon"></i>
+        <i class="devicon-trello-plain" id="tech-icon"></i>
+        <i class="devicon-vscode-plain" id="tech-icon"></i>
       </div>
     </div>
   `;
