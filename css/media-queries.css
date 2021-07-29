@@ -31,8 +31,8 @@
   .greeting-card { margin-bottom: 0; }
   .proj-sub-open {box-shadow: var(--smallBoxShad);}
   .proj-sub-closed {box-shadow: var(--smallBoxShad);}
-  .main-a {box-shadow: var(--smallBoxShad);}
-  .main-b {box-shadow: var(--smallBoxShad);}
+  .main-a {box-shadow: var(--smallBoxShad); padding: .5rem;}
+  .main-b {box-shadow: var(--smallBoxShad); padding: .5rem;}
   .projects-menu > * {white-space: nowrap;}
   .projects-menu {
     box-shadow: var(--smallBoxShad);
@@ -46,7 +46,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(10, 10%);
+    grid-template-rows: repeat(9, 10%) 5% 5%;
     grid-template-areas:
       ". grt grt grt grt grt grt grt grt ."
       ". . . menu menu menu menu . . ."
@@ -58,6 +58,7 @@
       ". box-b box-b box-b box-b box-b box-b box-b box-b ."
       ". box-b box-b box-b box-b box-b box-b box-b box-b ."
       ". box-b box-b box-b box-b box-b box-b box-b box-b ."
+      ". . . . . . . . . ."
   }
 
   .main-menu-container {
@@ -68,6 +69,12 @@
     padding: .25rem;
     min-width: 15rem;
     max-width: 15rem;
-
   }
+
+  .about-card h2 {font-size: 1.25rem;}
+  .about-card h3 {margin: .25rem 0;}
+
+  .tech-card h2 {font-size: 1.25rem;}
+  .tech-card h3 {margin: .25rem 0;}
+  .tech-card > * > i {font-size: 1.5rem !important;}
 }
