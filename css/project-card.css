@@ -6,6 +6,7 @@
 
 .project-img {
   text-align: center;
+  overflow: hidden;
 }
 
 .button-container {
@@ -37,12 +38,12 @@
 /*PROJECT IMAGES*/
 #split-img {
   border: 1px solid black;
-  width: 90%;
+  max-height: 90%;
   border-radius: .25rem;
 }
 
 #chef-img {
-  width: 100%;
+  max-height: 90%;
   border: 1px solid black;
   border-radius: .25rem;
 }
