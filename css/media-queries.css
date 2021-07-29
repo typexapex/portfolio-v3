@@ -12,12 +12,14 @@
       ". box-b box-b box-b ."
       ". box-b box-b box-b ."
       ". menu menu menu ."
-
   }
-  .main-a { box-shadow: var(--boxShadHalf); margin-bottom: 1rem; }
+  .main-a {
+    box-shadow: var(--boxShadHalf);
+    margin-bottom: 1rem;
+  }
   .main-b { box-shadow: var(--boxShadHalf); }
   .projects-menu { box-shadow: var(--boxShadHalf); }
-  .greeting-card h1 { font-size: 2rem; }
+  h1 { font-size: 2rem; }
   .greeting-card p { font-size: 1rem; }
   h2 { font-size: 1.5rem; }
   h3 { font-size: 1rem; }
@@ -26,21 +28,28 @@
 }
 
 @media screen and (max-width: 400px) {
-  h1 { font-size: 1.75rem; text-shadow: var(--textShad);}
+  h1 {
+    font-size: 1.75rem;
+    text-shadow: var(--textShad);
+  }
   p { font-size: .75rem; }
   .greeting-card { margin-bottom: 0; }
   .proj-sub-open {box-shadow: var(--smallBoxShad);}
   .proj-sub-closed {box-shadow: var(--smallBoxShad);}
-  .main-a {box-shadow: var(--smallBoxShad); padding: .5rem;}
-  .main-b {box-shadow: var(--smallBoxShad); padding: .5rem;}
+  .main-a {
+    box-shadow: var(--smallBoxShad);
+    padding: .5rem;
+  }
+  .main-b {
+    box-shadow: var(--smallBoxShad);
+    padding: .5rem;
+  }
   .projects-menu > * {white-space: nowrap;}
   .projects-menu {
     box-shadow: var(--smallBoxShad);
     transform: translateX(2.75%) translateY(1.75rem);
     height: 25%;
   }
-
-
   .content-wrapper {
     width: 100vw;
     height: 100vh;
@@ -60,24 +69,24 @@
       ". box-b box-b box-b box-b box-b box-b box-b box-b ."
       ". . . . . . . . . ."
   }
-
   .main-menu-container {
     margin-top: .5rem;
   }
-
   .main-menu {
     padding: .25rem;
     min-width: 15rem;
     max-width: 15rem;
   }
-
   h2 {font-size: 1.25rem;}
   h3 {margin: .25rem 0;}
-
   .tech-card > * > i {font-size: 1.5rem !important;}
-
   .contact-form-card {padding-top: 0;}
-
-  .project-text {margin-top: 0; margin-bottom: 1rem !important;}
+  .project-text {
+    margin-top: 0;
+    margin-bottom: 1rem !important;
+  }
   .project-tech > * {font-size: 1.25rem !important;}
+  .menu {bottom: -1rem;}
+  .fa-bars {color: var(--drkBlue) !important;}
+  .socials {top: 6% !important;}
 }
