@@ -86,7 +86,5 @@
     margin-bottom: 1rem !important;
   }
   .project-tech > * {font-size: 1.25rem !important;}
-  .menu {bottom: -1rem;}
-  .fa-bars {color: var(--drkBlue) !important;}
   .socials {top: 6% !important;}
 }
